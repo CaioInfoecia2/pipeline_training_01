@@ -1,0 +1,279 @@
+[0m08:11:37.949224 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022007E44090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002200AFAE350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002200ADB5350>]}
+
+
+============================== 08:11:37.954221 | 988248ea-9e45-401e-b33a-393373a113e4 ==============================
+[0m08:11:37.954221 [info ] [MainThread]: Running with dbt=1.8.9
+[0m08:11:37.955213 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init pipeline_01', 'send_anonymous_usage_stats': 'True'}
+[0m08:11:37.976556 [debug] [MainThread]: Starter project path: C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m08:11:37.993546 [info ] [MainThread]: 
+Your new dbt project "pipeline_01" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m08:11:37.995546 [info ] [MainThread]: Setting up your profile.
+[0m08:12:06.174589 [info ] [MainThread]: Profile pipeline_01 written to C:\Users\caio\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m08:12:06.175576 [debug] [MainThread]: Command `dbt init` succeeded at 08:12:06.175576 after 28.29 seconds
+[0m08:12:06.176584 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002200AFFE010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022004827810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002200AFAA810>]}
+[0m08:12:06.177574 [debug] [MainThread]: Flushing usage events
+[0m08:12:13.952006 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A21186F010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A21055EC90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A21186E0D0>]}
+
+
+============================== 08:12:13.957013 | 7892e29f-4379-4b9a-957b-5dc076a543fc ==============================
+[0m08:12:13.957013 [info ] [MainThread]: Running with dbt=1.8.9
+[0m08:12:13.958016 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m08:12:13.977992 [info ] [MainThread]: dbt version: 1.8.9
+[0m08:12:13.979991 [info ] [MainThread]: python version: 3.11.9
+[0m08:12:13.979991 [info ] [MainThread]: python path: C:\Users\caio\AppData\Local\Programs\Python\Python311\python.exe
+[0m08:12:13.980990 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m08:12:14.257125 [info ] [MainThread]: Using profiles dir at C:\Users\caio\.dbt
+[0m08:12:14.258110 [info ] [MainThread]: Using profiles.yml file at C:\Users\caio\.dbt\profiles.yml
+[0m08:12:14.258110 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\caio\Desktop\Pipeline 1\dbt_project.yml
+[0m08:12:14.259110 [info ] [MainThread]: Configuration:
+[0m08:12:14.260125 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m08:12:14.261120 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m08:12:14.261120 [info ] [MainThread]: Required dependencies:
+[0m08:12:14.262109 [debug] [MainThread]: Executing "git --help"
+[0m08:12:14.306083 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:12:14.307097 [debug] [MainThread]: STDERR: "b''"
+[0m08:12:14.307097 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:12:14.308106 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m08:12:14.309108 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m08:12:14.309108 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "pipeline_01", target "dev" invalid: 'schema' is a required property
+
+
+[0m08:12:14.310121 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\caio\Desktop\Pipeline 1\dbt_project.yml> not found
+
+[0m08:12:14.312106 [debug] [MainThread]: Command `dbt debug` failed at 08:12:14.312106 after 0.43 seconds
+[0m08:12:14.312106 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A211891050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A211891510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A20B1739D0>]}
+[0m08:12:14.313105 [debug] [MainThread]: Flushing usage events
+[0m08:12:49.393747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2EC1EC110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2EC1CB210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2EC1C8810>]}
+
+
+============================== 08:12:49.397755 | 502f7152-9434-4eda-a6f8-7b056a87ecae ==============================
+[0m08:12:49.397755 [info ] [MainThread]: Running with dbt=1.8.9
+[0m08:12:49.398745 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m08:12:49.420643 [info ] [MainThread]: dbt version: 1.8.9
+[0m08:12:49.421642 [info ] [MainThread]: python version: 3.11.9
+[0m08:12:49.421642 [info ] [MainThread]: python path: C:\Users\caio\AppData\Local\Programs\Python\Python311\python.exe
+[0m08:12:49.422642 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m08:12:49.698497 [info ] [MainThread]: Using profiles dir at C:\Users\caio\.dbt
+[0m08:12:49.699497 [info ] [MainThread]: Using profiles.yml file at C:\Users\caio\.dbt\profiles.yml
+[0m08:12:49.700484 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\caio\Desktop\Pipeline 1\dbt_project.yml
+[0m08:12:49.701482 [info ] [MainThread]: adapter type: sqlserver
+[0m08:12:49.701482 [info ] [MainThread]: adapter version: 1.8.7
+[0m08:12:49.702483 [info ] [MainThread]: Configuration:
+[0m08:12:49.702483 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m08:12:49.703481 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m08:12:49.704492 [info ] [MainThread]: Required dependencies:
+[0m08:12:49.704492 [debug] [MainThread]: Executing "git --help"
+[0m08:12:49.745456 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:12:49.746471 [debug] [MainThread]: STDERR: "b''"
+[0m08:12:49.747469 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:12:49.748455 [info ] [MainThread]: Connection:
+[0m08:12:49.749463 [info ] [MainThread]:   server: localhost\SQL2019EXPRESS
+[0m08:12:49.749463 [info ] [MainThread]:   database: Caio_não_apagar
+[0m08:12:49.750473 [info ] [MainThread]:   schema: dbo
+[0m08:12:49.751454 [info ] [MainThread]:   UID: None
+[0m08:12:49.751454 [info ] [MainThread]:   client_id: None
+[0m08:12:49.752453 [info ] [MainThread]:   authentication: sql
+[0m08:12:49.753453 [info ] [MainThread]:   encrypt: True
+[0m08:12:49.754454 [info ] [MainThread]:   trust_cert: False
+[0m08:12:49.755451 [info ] [MainThread]:   retries: 3
+[0m08:12:49.755451 [info ] [MainThread]:   login_timeout: 0
+[0m08:12:49.756451 [info ] [MainThread]:   query_timeout: 0
+[0m08:12:49.756451 [info ] [MainThread]:   trace_flag: False
+[0m08:12:49.757584 [info ] [MainThread]:   port: 1433
+[0m08:12:49.758588 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m08:12:50.044436 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m08:12:50.044436 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m08:12:50.045436 [debug] [MainThread]: On debug: select 1 as id
+[0m08:12:50.045436 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m08:12:50.046434 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m08:12:50.066819 [debug] [MainThread]: fabric adapter: Got a retryable error when attempting to open a sqlserver connection.
+3 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SSL Provider: A cadeia de certificação foi emitida por uma autoridade que não é de confiança.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Client unable to establish connection (-2146893019); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0)')
+[0m08:12:51.068530 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m08:12:51.088484 [debug] [MainThread]: fabric adapter: Got a retryable error when attempting to open a sqlserver connection.
+2 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SSL Provider: A cadeia de certificação foi emitida por uma autoridade que não é de confiança.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Client unable to establish connection (-2146893019); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0)')
+[0m08:12:52.091787 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m08:12:52.096785 [debug] [MainThread]: fabric adapter: Got a retryable error when attempting to open a sqlserver connection.
+1 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SSL Provider: A cadeia de certificação foi emitida por uma autoridade que não é de confiança.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Client unable to establish connection (-2146893019); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0)')
+[0m08:12:53.098945 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m08:12:53.118635 [debug] [MainThread]: fabric adapter: Error running SQL: select 1 as id
+[0m08:12:53.120634 [debug] [MainThread]: fabric adapter: Rolling back transaction.
+[0m08:12:53.122634 [debug] [MainThread]: On debug: No close available on handle
+[0m08:12:53.125605 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m08:12:53.128595 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m08:12:53.131627 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\caio\Desktop\Pipeline 1\dbt_project.yml> not found
+
+[0m08:12:53.135626 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SSL Provider: A cadeia de certificação foi emitida por uma autoridade que não é de confiança.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Client unable to establish connection (-2146893019); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0)')
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m08:12:53.145619 [debug] [MainThread]: Command `dbt debug` failed at 08:12:53.144620 after 3.83 seconds
+[0m08:12:53.146608 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m08:12:53.148586 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2E5A26A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2EC19CDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2EC19C310>]}
+[0m08:12:53.150586 [debug] [MainThread]: Flushing usage events
+[0m08:14:05.115775 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000285C9D4B5D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000285C9D4F710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000285C9D4E8D0>]}
+
+
+============================== 08:14:05.119776 | f0d8152a-ebc4-46fc-8daf-4e2e021e4236 ==============================
+[0m08:14:05.119776 [info ] [MainThread]: Running with dbt=1.8.9
+[0m08:14:05.120765 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m08:14:05.142760 [info ] [MainThread]: dbt version: 1.8.9
+[0m08:14:05.143764 [info ] [MainThread]: python version: 3.11.9
+[0m08:14:05.144764 [info ] [MainThread]: python path: C:\Users\caio\AppData\Local\Programs\Python\Python311\python.exe
+[0m08:14:05.145750 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m08:14:05.429585 [info ] [MainThread]: Using profiles dir at C:\Users\caio\.dbt
+[0m08:14:05.430584 [info ] [MainThread]: Using profiles.yml file at C:\Users\caio\.dbt\profiles.yml
+[0m08:14:05.431583 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\caio\Desktop\Pipeline 1\dbt_project.yml
+[0m08:14:05.432583 [info ] [MainThread]: adapter type: sqlserver
+[0m08:14:05.433582 [info ] [MainThread]: adapter version: 1.8.7
+[0m08:14:05.542539 [info ] [MainThread]: Configuration:
+[0m08:14:05.543521 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m08:14:05.543521 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m08:14:05.544518 [info ] [MainThread]: Required dependencies:
+[0m08:14:05.545532 [debug] [MainThread]: Executing "git --help"
+[0m08:14:05.586516 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:14:05.587494 [debug] [MainThread]: STDERR: "b''"
+[0m08:14:05.588515 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:14:05.589493 [info ] [MainThread]: Connection:
+[0m08:14:05.590493 [info ] [MainThread]:   server: localhost\SQL2019EXPRESS
+[0m08:14:05.591496 [info ] [MainThread]:   database: Caio_não_apagar
+[0m08:14:05.591496 [info ] [MainThread]:   schema: dbo
+[0m08:14:05.592491 [info ] [MainThread]:   UID: None
+[0m08:14:05.593490 [info ] [MainThread]:   client_id: None
+[0m08:14:05.594490 [info ] [MainThread]:   authentication: Windows Login
+[0m08:14:05.594490 [info ] [MainThread]:   encrypt: True
+[0m08:14:05.595492 [info ] [MainThread]:   trust_cert: False
+[0m08:14:05.596490 [info ] [MainThread]:   retries: 3
+[0m08:14:05.597490 [info ] [MainThread]:   login_timeout: 0
+[0m08:14:05.598488 [info ] [MainThread]:   query_timeout: 0
+[0m08:14:05.599490 [info ] [MainThread]:   trace_flag: False
+[0m08:14:05.600494 [info ] [MainThread]:   port: 1433
+[0m08:14:05.601486 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m08:14:05.904325 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m08:14:05.905326 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m08:14:05.906311 [debug] [MainThread]: On debug: select 1 as id
+[0m08:14:05.906311 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m08:14:05.907319 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m08:14:05.927572 [debug] [MainThread]: fabric adapter: Got a retryable error when attempting to open a sqlserver connection.
+3 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SSL Provider: A cadeia de certificação foi emitida por uma autoridade que não é de confiança.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Client unable to establish connection (-2146893019); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0)')
+[0m08:14:06.928632 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m08:14:06.948293 [debug] [MainThread]: fabric adapter: Got a retryable error when attempting to open a sqlserver connection.
+2 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SSL Provider: A cadeia de certificação foi emitida por uma autoridade que não é de confiança.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Client unable to establish connection (-2146893019); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0)')
+[0m08:14:07.951869 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m08:14:07.971827 [debug] [MainThread]: fabric adapter: Got a retryable error when attempting to open a sqlserver connection.
+1 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SSL Provider: A cadeia de certificação foi emitida por uma autoridade que não é de confiança.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Client unable to establish connection (-2146893019); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0)')
+[0m08:14:08.974912 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m08:14:08.994628 [debug] [MainThread]: fabric adapter: Error running SQL: select 1 as id
+[0m08:14:08.996607 [debug] [MainThread]: fabric adapter: Rolling back transaction.
+[0m08:14:08.998602 [debug] [MainThread]: On debug: No close available on handle
+[0m08:14:09.001592 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m08:14:09.004588 [info ] [MainThread]: [31m1 check failed:[0m
+[0m08:14:09.007592 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SSL Provider: A cadeia de certificação foi emitida por uma autoridade que não é de confiança.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Client unable to establish connection (-2146893019); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0)')
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m08:14:09.016579 [debug] [MainThread]: Command `dbt debug` failed at 08:14:09.015581 after 3.97 seconds
+[0m08:14:09.017578 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m08:14:09.019577 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000285C9B55050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000285C89F8CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000285C36239D0>]}
+[0m08:14:09.021576 [debug] [MainThread]: Flushing usage events
+[0m08:14:56.828807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E48574E1D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E485555010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E48579F150>]}
+
+
+============================== 08:14:56.833814 | f01da24f-96d3-43dd-a6fa-32cceb1992b8 ==============================
+[0m08:14:56.833814 [info ] [MainThread]: Running with dbt=1.8.9
+[0m08:14:56.834803 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m08:14:56.858799 [info ] [MainThread]: dbt version: 1.8.9
+[0m08:14:56.859799 [info ] [MainThread]: python version: 3.11.9
+[0m08:14:56.860789 [info ] [MainThread]: python path: C:\Users\caio\AppData\Local\Programs\Python\Python311\python.exe
+[0m08:14:56.860789 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m08:14:57.139642 [info ] [MainThread]: Using profiles dir at C:\Users\caio\.dbt
+[0m08:14:57.141627 [info ] [MainThread]: Using profiles.yml file at C:\Users\caio\.dbt\profiles.yml
+[0m08:14:57.141627 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\caio\Desktop\Pipeline 1\dbt_project.yml
+[0m08:14:57.142627 [info ] [MainThread]: adapter type: sqlserver
+[0m08:14:57.143626 [info ] [MainThread]: adapter version: 1.8.7
+[0m08:14:57.236586 [info ] [MainThread]: Configuration:
+[0m08:14:57.237572 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m08:14:57.237572 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m08:14:57.238571 [info ] [MainThread]: Required dependencies:
+[0m08:14:57.239580 [debug] [MainThread]: Executing "git --help"
+[0m08:14:57.280547 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:14:57.281549 [debug] [MainThread]: STDERR: "b''"
+[0m08:14:57.282549 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:14:57.283559 [info ] [MainThread]: Connection:
+[0m08:14:57.284547 [info ] [MainThread]:   server: localhost\SQL2019EXPRESS
+[0m08:14:57.284547 [info ] [MainThread]:   database: Caio_não_apagar
+[0m08:14:57.285547 [info ] [MainThread]:   schema: dbo
+[0m08:14:57.286544 [info ] [MainThread]:   UID: None
+[0m08:14:57.287543 [info ] [MainThread]:   client_id: None
+[0m08:14:57.288543 [info ] [MainThread]:   authentication: Windows Login
+[0m08:14:57.289550 [info ] [MainThread]:   encrypt: True
+[0m08:14:57.290543 [info ] [MainThread]:   trust_cert: True
+[0m08:14:57.290543 [info ] [MainThread]:   retries: 3
+[0m08:14:57.291542 [info ] [MainThread]:   login_timeout: 0
+[0m08:14:57.292573 [info ] [MainThread]:   query_timeout: 0
+[0m08:14:57.292573 [info ] [MainThread]:   trace_flag: False
+[0m08:14:57.293540 [info ] [MainThread]:   port: 1433
+[0m08:14:57.294541 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m08:14:57.611371 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m08:14:57.612370 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m08:14:57.613371 [debug] [MainThread]: On debug: select 1 as id
+[0m08:14:57.613371 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m08:14:57.614370 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m08:14:57.705447 [debug] [MainThread]: fabric adapter: Connected to db: Caio_não_apagar
+[0m08:14:57.707095 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m08:14:57.708097 [debug] [MainThread]: On debug: Close
+[0m08:14:57.709095 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m08:14:57.710095 [info ] [MainThread]: [32mAll checks passed![0m
+[0m08:14:57.711109 [debug] [MainThread]: Command `dbt debug` succeeded at 08:14:57.711109 after 0.96 seconds
+[0m08:14:57.711109 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m08:14:57.712094 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E4844A3290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E4FF0539D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E486F62E90>]}
+[0m08:14:57.713093 [debug] [MainThread]: Flushing usage events
