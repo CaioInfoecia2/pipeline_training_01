@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: amplus
+    description: "dados brutos do amplus"
+    schema: dbo
+    loader: sqlserver
+    loaded_at_field: DataAlteracao
+
+    tables:
+      - name: PRODUTOS
+        description: "Tabela de produtos"
+        columns:
+          - name: ID_CODPRODUTO
+            description: "Identificador único do produto"
+          - name: PROD_CODBARRA
+            description: "Código de barra do produto"
+          - name: PROD_DESCABREVIADA
+            description: "Descrição abreviada do produto"
+          - name: DataAlteracao
+            description: "Data da ultima alteração do produto"

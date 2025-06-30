@@ -277,3 +277,933 @@ https://docs.getdbt.com/docs/configure-your-profile
 [0m08:14:57.711109 [debug] [MainThread]: Connection 'debug' was properly closed.
 [0m08:14:57.712094 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E4844A3290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E4FF0539D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E486F62E90>]}
 [0m08:14:57.713093 [debug] [MainThread]: Flushing usage events
+[0m11:43:59.178623 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020FD13DE990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020FD1428910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020FD142B310>]}
+
+
+============================== 11:43:59.188618 | 639dd6bb-b156-4a97-a85e-a79c0bd40a9f ==============================
+[0m11:43:59.188618 [info ] [MainThread]: Running with dbt=1.8.9
+[0m11:43:59.190616 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'log_path': 'c:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt ', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:43:59.352525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '639dd6bb-b156-4a97-a85e-a79c0bd40a9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020FD14287D0>]}
+[0m11:43:59.438479 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m11:43:59.440476 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m11:43:59.442495 [debug] [MainThread]: Command `cli deps` succeeded at 11:43:59.442495 after 0.39 seconds
+[0m11:43:59.442495 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020FD11E0ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020FD13D6DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020FCD5690D0>]}
+[0m11:43:59.443494 [debug] [MainThread]: Flushing usage events
+[0m13:37:16.974547 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C31C3D410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C31C3E790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C31C3EBD0>]}
+
+
+============================== 13:37:16.979558 | b48f0429-ab53-4344-95e9-3ed814e076af ==============================
+[0m13:37:16.979558 [info ] [MainThread]: Running with dbt=1.8.9
+[0m13:37:16.980558 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:37:17.004545 [info ] [MainThread]: dbt version: 1.8.9
+[0m13:37:17.005530 [info ] [MainThread]: python version: 3.11.9
+[0m13:37:17.005530 [info ] [MainThread]: python path: C:\Users\caio\AppData\Local\Programs\Python\Python311\python.exe
+[0m13:37:17.006529 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m13:37:17.315353 [info ] [MainThread]: Using profiles dir at C:\Users\caio\.dbt
+[0m13:37:17.316352 [info ] [MainThread]: Using profiles.yml file at C:\Users\caio\.dbt\profiles.yml
+[0m13:37:17.317351 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\caio\Desktop\Pipeline 1\dbt_project.yml
+[0m13:37:17.318351 [info ] [MainThread]: adapter type: sqlserver
+[0m13:37:17.318351 [info ] [MainThread]: adapter version: 1.8.7
+[0m13:37:17.420307 [info ] [MainThread]: Configuration:
+[0m13:37:17.421311 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:37:17.422291 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m13:37:17.422291 [info ] [MainThread]: Required dependencies:
+[0m13:37:17.423292 [debug] [MainThread]: Executing "git --help"
+[0m13:37:17.467266 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m13:37:17.468265 [debug] [MainThread]: STDERR: "b''"
+[0m13:37:17.469267 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m13:37:17.471267 [info ] [MainThread]: Connection:
+[0m13:37:17.471267 [info ] [MainThread]:   server: localhost\SQL2019EXPRESS
+[0m13:37:17.472263 [info ] [MainThread]:   database: Caio_não_apagar
+[0m13:37:17.473264 [info ] [MainThread]:   schema: dbo
+[0m13:37:17.474263 [info ] [MainThread]:   UID: None
+[0m13:37:17.475263 [info ] [MainThread]:   client_id: None
+[0m13:37:17.477261 [info ] [MainThread]:   authentication: Windows Login
+[0m13:37:17.479260 [info ] [MainThread]:   encrypt: True
+[0m13:37:17.480259 [info ] [MainThread]:   trust_cert: True
+[0m13:37:17.481258 [info ] [MainThread]:   retries: 3
+[0m13:37:17.482258 [info ] [MainThread]:   login_timeout: 0
+[0m13:37:17.482579 [info ] [MainThread]:   query_timeout: 0
+[0m13:37:17.483583 [info ] [MainThread]:   trace_flag: False
+[0m13:37:17.483583 [info ] [MainThread]:   port: 1433
+[0m13:37:17.485588 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m13:37:17.878619 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m13:37:17.879625 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m13:37:17.880598 [debug] [MainThread]: On debug: select 1 as id
+[0m13:37:17.880598 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:37:17.881597 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m13:37:18.048094 [debug] [MainThread]: fabric adapter: Connected to db: Caio_não_apagar
+[0m13:37:18.050106 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m13:37:18.051096 [debug] [MainThread]: On debug: Close
+[0m13:37:18.052098 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m13:37:18.053098 [info ] [MainThread]: [32mAll checks passed![0m
+[0m13:37:18.054097 [debug] [MainThread]: Command `dbt debug` succeeded at 13:37:18.054097 after 1.16 seconds
+[0m13:37:18.055096 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m13:37:18.056096 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C31C8D9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C31C8F490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C2B5C39D0>]}
+[0m13:37:18.056096 [debug] [MainThread]: Flushing usage events
+[0m14:23:02.240508 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A5622C190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A56227010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A562265D0>]}
+
+
+============================== 14:23:02.245491 | 9a9011ee-9f3e-4449-b908-cb5272ac7f09 ==============================
+[0m14:23:02.245491 [info ] [MainThread]: Running with dbt=1.8.9
+[0m14:23:02.246491 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'c:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt ', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:23:02.384435 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9a9011ee-9f3e-4449-b908-cb5272ac7f09', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A531E0890>]}
+[0m14:23:02.408403 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:23:02.410402 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:23:02.411421 [debug] [MainThread]: Command `cli deps` succeeded at 14:23:02.411421 after 0.25 seconds
+[0m14:23:02.412421 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A55DA9290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A562572D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A56257510>]}
+[0m14:23:02.413415 [debug] [MainThread]: Flushing usage events
+[0m14:50:15.920404 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3B655F7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3B659C290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3B655F610>]}
+
+
+============================== 14:50:15.924402 | 1fc5f0fe-8c8a-4b13-9d11-72ad8b944544 ==============================
+[0m14:50:15.924402 [info ] [MainThread]: Running with dbt=1.8.9
+[0m14:50:15.925403 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt seed', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:50:16.304200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1fc5f0fe-8c8a-4b13-9d11-72ad8b944544', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3B65D4450>]}
+[0m14:50:16.356170 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1fc5f0fe-8c8a-4b13-9d11-72ad8b944544', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3B59C5010>]}
+[0m14:50:16.357170 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m14:50:16.682253 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m14:50:16.803184 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:50:16.804184 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:50:16.805182 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.pipeline_01.marts
+- models.pipeline_01.staging
+- models.pipeline_01.intermediate
+[0m14:50:16.812178 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1fc5f0fe-8c8a-4b13-9d11-72ad8b944544', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3B8100910>]}
+[0m14:50:16.903943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1fc5f0fe-8c8a-4b13-9d11-72ad8b944544', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3B817AB90>]}
+[0m14:50:16.904943 [info ] [MainThread]: Found 504 macros
+[0m14:50:16.905942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1fc5f0fe-8c8a-4b13-9d11-72ad8b944544', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3B8172E90>]}
+[0m14:50:16.908994 [info ] [MainThread]: 
+[0m14:50:16.909997 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:50:16.912013 [debug] [MainThread]: Command end result
+[0m14:50:16.946976 [info ] [MainThread]: 
+[0m14:50:16.949009 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:50:16.949009 [info ] [MainThread]: 
+[0m14:50:16.950558 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=0 SKIP=0 TOTAL=0
+[0m14:50:16.952559 [debug] [MainThread]: Command `dbt seed` succeeded at 14:50:16.951561 after 1.10 seconds
+[0m14:50:16.952559 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3AFE4D250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3B7D9FAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3AFEC39D0>]}
+[0m14:50:16.953558 [debug] [MainThread]: Flushing usage events
+[0m14:52:32.319993 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E95C59E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E95C59E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E95C0E850>]}
+
+
+============================== 14:52:32.323993 | a4f5ed1b-c175-4023-80c3-c265f2aaaa1b ==============================
+[0m14:52:32.323993 [info ] [MainThread]: Running with dbt=1.8.9
+[0m14:52:32.325002 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt seed', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:52:32.699804 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a4f5ed1b-c175-4023-80c3-c265f2aaaa1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E97362FD0>]}
+[0m14:52:32.751775 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a4f5ed1b-c175-4023-80c3-c265f2aaaa1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E95085190>]}
+[0m14:52:32.752774 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m14:52:33.052605 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m14:52:33.171542 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:52:33.172541 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:52:33.173523 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.pipeline_01.marts
+- models.pipeline_01.staging
+- models.pipeline_01.intermediate
+[0m14:52:33.179532 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a4f5ed1b-c175-4023-80c3-c265f2aaaa1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E97802FD0>]}
+[0m14:52:33.261472 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a4f5ed1b-c175-4023-80c3-c265f2aaaa1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E977DF9D0>]}
+[0m14:52:33.262474 [info ] [MainThread]: Found 504 macros
+[0m14:52:33.263473 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a4f5ed1b-c175-4023-80c3-c265f2aaaa1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E95C0BAD0>]}
+[0m14:52:33.265484 [info ] [MainThread]: 
+[0m14:52:33.266471 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:52:33.268482 [debug] [MainThread]: Command end result
+[0m14:52:33.302449 [info ] [MainThread]: 
+[0m14:52:33.303448 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:52:33.304462 [info ] [MainThread]: 
+[0m14:52:33.305449 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=0 SKIP=0 TOTAL=0
+[0m14:52:33.306446 [debug] [MainThread]: Command `dbt seed` succeeded at 14:52:33.306446 after 1.06 seconds
+[0m14:52:33.307457 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E94963010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E8F5439D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E8F4CD250>]}
+[0m14:52:33.308456 [debug] [MainThread]: Flushing usage events
+[0m14:53:08.981317 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002800380E710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002800385EFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002800385DA90>]}
+
+
+============================== 14:53:08.986334 | 357e8dc3-83c6-4060-b1a0-14e94b5ebe0d ==============================
+[0m14:53:08.986334 [info ] [MainThread]: Running with dbt=1.8.9
+[0m14:53:08.987314 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:53:09.006304 [info ] [MainThread]: dbt version: 1.8.9
+[0m14:53:09.008302 [info ] [MainThread]: python version: 3.11.9
+[0m14:53:09.009304 [info ] [MainThread]: python path: C:\Users\caio\AppData\Local\Programs\Python\Python311\python.exe
+[0m14:53:09.010303 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m14:53:09.280166 [info ] [MainThread]: Using profiles dir at C:\Users\caio\.dbt
+[0m14:53:09.281160 [info ] [MainThread]: Using profiles.yml file at C:\Users\caio\.dbt\profiles.yml
+[0m14:53:09.282173 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\caio\Desktop\Pipeline 1\dbt_project.yml
+[0m14:53:09.282173 [info ] [MainThread]: adapter type: sqlserver
+[0m14:53:09.283145 [info ] [MainThread]: adapter version: 1.8.7
+[0m14:53:09.377092 [info ] [MainThread]: Configuration:
+[0m14:53:09.378097 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:53:09.378097 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m14:53:09.379091 [info ] [MainThread]: Required dependencies:
+[0m14:53:09.380102 [debug] [MainThread]: Executing "git --help"
+[0m14:53:09.423066 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:53:09.424079 [debug] [MainThread]: STDERR: "b''"
+[0m14:53:09.425080 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:53:09.426081 [info ] [MainThread]: Connection:
+[0m14:53:09.427064 [info ] [MainThread]:   server: localhost\SQL2019EXPRESS
+[0m14:53:09.428066 [info ] [MainThread]:   database: Caio_não_apagar
+[0m14:53:09.429064 [info ] [MainThread]:   schema: dbo
+[0m14:53:09.430064 [info ] [MainThread]:   UID: None
+[0m14:53:09.430064 [info ] [MainThread]:   client_id: None
+[0m14:53:09.431081 [info ] [MainThread]:   authentication: Windows Login
+[0m14:53:09.432062 [info ] [MainThread]:   encrypt: True
+[0m14:53:09.433061 [info ] [MainThread]:   trust_cert: True
+[0m14:53:09.434062 [info ] [MainThread]:   retries: 3
+[0m14:53:09.435061 [info ] [MainThread]:   login_timeout: 0
+[0m14:53:09.436059 [info ] [MainThread]:   query_timeout: 0
+[0m14:53:09.437063 [info ] [MainThread]:   trace_flag: False
+[0m14:53:09.438069 [info ] [MainThread]:   port: 1433
+[0m14:53:09.439060 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m14:53:09.719911 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m14:53:09.720910 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m14:53:09.720910 [debug] [MainThread]: On debug: select 1 as id
+[0m14:53:09.721910 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:53:09.721910 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m14:53:09.764282 [debug] [MainThread]: fabric adapter: Connected to db: Caio_não_apagar
+[0m14:53:09.765267 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:53:09.766280 [debug] [MainThread]: On debug: Close
+[0m14:53:09.767267 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:53:09.768287 [info ] [MainThread]: [32mAll checks passed![0m
+[0m14:53:09.770266 [debug] [MainThread]: Command `dbt debug` succeeded at 14:53:09.770266 after 0.86 seconds
+[0m14:53:09.770266 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:53:09.771265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002807D0B39D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028002CF5650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002800384C090>]}
+[0m14:53:09.771265 [debug] [MainThread]: Flushing usage events
+[0m14:53:26.275439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1AB57D210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1AB57F310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1AB57F2D0>]}
+
+
+============================== 14:53:26.283440 | 29ff6cf0-1c65-4b36-8356-bd79cba42be2 ==============================
+[0m14:53:26.283440 [info ] [MainThread]: Running with dbt=1.8.9
+[0m14:53:26.285419 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt seed --show', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:53:26.674196 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '29ff6cf0-1c65-4b36-8356-bd79cba42be2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1AB4BB790>]}
+[0m14:53:26.728179 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '29ff6cf0-1c65-4b36-8356-bd79cba42be2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1AA9F5190>]}
+[0m14:53:26.729164 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m14:53:27.028008 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m14:53:27.145942 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:53:27.146945 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:53:27.147956 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.pipeline_01.staging
+- models.pipeline_01.marts
+- models.pipeline_01.intermediate
+[0m14:53:27.153922 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '29ff6cf0-1c65-4b36-8356-bd79cba42be2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1AD13A650>]}
+[0m14:53:27.239874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '29ff6cf0-1c65-4b36-8356-bd79cba42be2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1AA990CD0>]}
+[0m14:53:27.240873 [info ] [MainThread]: Found 504 macros
+[0m14:53:27.241877 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '29ff6cf0-1c65-4b36-8356-bd79cba42be2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1AD08D010>]}
+[0m14:53:27.242887 [info ] [MainThread]: 
+[0m14:53:27.243885 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:53:27.245871 [debug] [MainThread]: Command end result
+[0m14:53:27.279853 [info ] [MainThread]: 
+[0m14:53:27.280850 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:53:27.281858 [info ] [MainThread]: 
+[0m14:53:27.282849 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=0 SKIP=0 TOTAL=0
+[0m14:53:27.283851 [debug] [MainThread]: Command `dbt seed` succeeded at 14:53:27.283851 after 1.08 seconds
+[0m14:53:27.284848 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1A8B80E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1AD139E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1A4DD6C10>]}
+[0m14:53:27.284848 [debug] [MainThread]: Flushing usage events
+[0m14:53:54.376232 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D05E9F3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D05E9FE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D05E9EB10>]}
+
+
+============================== 14:53:54.380229 | 13f0addc-a2fa-4d4b-acd7-2c1dac181504 ==============================
+[0m14:53:54.380229 [info ] [MainThread]: Running with dbt=1.8.9
+[0m14:53:54.381229 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt seed --select country_codes', 'send_anonymous_usage_stats': 'True'}
+[0m14:53:54.750037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '13f0addc-a2fa-4d4b-acd7-2c1dac181504', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D0767A950>]}
+[0m14:53:54.803003 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '13f0addc-a2fa-4d4b-acd7-2c1dac181504', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D05315010>]}
+[0m14:53:54.805001 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m14:53:55.093837 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m14:53:55.212769 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:53:55.213769 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:53:55.214754 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.pipeline_01.staging
+- models.pipeline_01.intermediate
+- models.pipeline_01.marts
+[0m14:53:55.220751 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '13f0addc-a2fa-4d4b-acd7-2c1dac181504', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D05E9F890>]}
+[0m14:53:55.293709 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '13f0addc-a2fa-4d4b-acd7-2c1dac181504', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D0765C790>]}
+[0m14:53:55.294710 [info ] [MainThread]: Found 504 macros
+[0m14:53:55.295710 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '13f0addc-a2fa-4d4b-acd7-2c1dac181504', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D07AB9590>]}
+[0m14:53:55.296714 [warn ] [MainThread]: The selection criterion 'country_codes' does not match any enabled nodes
+[0m14:53:55.298707 [info ] [MainThread]: 
+[0m14:53:55.299177 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:53:55.301097 [debug] [MainThread]: Command end result
+[0m14:53:55.343060 [info ] [MainThread]: 
+[0m14:53:55.345059 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:53:55.346059 [info ] [MainThread]: 
+[0m14:53:55.347077 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=0 SKIP=0 TOTAL=0
+[0m14:53:55.348076 [debug] [MainThread]: Command `dbt seed` succeeded at 14:53:55.348076 after 1.04 seconds
+[0m14:53:55.349058 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D05EF7210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D05EEADD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D7F735B90>]}
+[0m14:53:55.349058 [debug] [MainThread]: Flushing usage events
+[0m14:56:20.729485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B2FF6A610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B2FF69F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B2FF1AF90>]}
+
+
+============================== 14:56:20.733485 | 436063bc-cc54-4ad0-ad62-ecd689b7839f ==============================
+[0m14:56:20.733485 [info ] [MainThread]: Running with dbt=1.8.9
+[0m14:56:20.734486 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt seed', 'send_anonymous_usage_stats': 'True'}
+[0m14:56:21.103274 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '436063bc-cc54-4ad0-ad62-ecd689b7839f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B2FF9FE10>]}
+[0m14:56:21.156244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '436063bc-cc54-4ad0-ad62-ecd689b7839f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B2F395090>]}
+[0m14:56:21.158243 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m14:56:21.463083 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m14:56:21.583015 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:56:21.583015 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:56:21.584014 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.pipeline_01.intermediate
+- models.pipeline_01.marts
+- models.pipeline_01.staging
+[0m14:56:21.591015 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '436063bc-cc54-4ad0-ad62-ecd689b7839f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B31347FD0>]}
+[0m14:56:21.667953 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '436063bc-cc54-4ad0-ad62-ecd689b7839f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B31AEFF10>]}
+[0m14:56:21.668972 [info ] [MainThread]: Found 504 macros
+[0m14:56:21.669954 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '436063bc-cc54-4ad0-ad62-ecd689b7839f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B31B3A110>]}
+[0m14:56:21.670967 [info ] [MainThread]: 
+[0m14:56:21.671970 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:56:21.673965 [debug] [MainThread]: Command end result
+[0m14:56:21.714927 [info ] [MainThread]: 
+[0m14:56:21.716947 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:56:21.717932 [info ] [MainThread]: 
+[0m14:56:21.718924 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=0 SKIP=0 TOTAL=0
+[0m14:56:21.719938 [debug] [MainThread]: Command `dbt seed` succeeded at 14:56:21.719938 after 1.06 seconds
+[0m14:56:21.720936 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B2FD25050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B2FD25650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B297F39D0>]}
+[0m14:56:21.720936 [debug] [MainThread]: Flushing usage events
+[0m15:00:02.607528 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F2302DB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F2302B250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F2302B090>]}
+
+
+============================== 15:00:02.611512 | 3945c790-efed-43cc-8d02-9383d7751963 ==============================
+[0m15:00:02.611512 [info ] [MainThread]: Running with dbt=1.8.9
+[0m15:00:02.612525 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt seed', 'send_anonymous_usage_stats': 'True'}
+[0m15:00:02.997302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3945c790-efed-43cc-8d02-9383d7751963', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F2434C190>]}
+[0m15:00:03.055273 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3945c790-efed-43cc-8d02-9383d7751963', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F224A5150>]}
+[0m15:00:03.056268 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m15:00:03.346102 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m15:00:03.469031 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m15:00:03.469031 [debug] [MainThread]: Partial parsing: added file: pipeline_01://seeds\country_codes.csv
+[0m15:00:03.669896 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.pipeline_01.staging
+- models.pipeline_01.marts
+- models.pipeline_01.intermediate
+[0m15:00:03.675892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3945c790-efed-43cc-8d02-9383d7751963', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F24B07F10>]}
+[0m15:00:03.827805 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3945c790-efed-43cc-8d02-9383d7751963', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F24B7F090>]}
+[0m15:00:03.828805 [info ] [MainThread]: Found 1 seed, 504 macros
+[0m15:00:03.829805 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3945c790-efed-43cc-8d02-9383d7751963', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F24D73390>]}
+[0m15:00:03.831803 [info ] [MainThread]: 
+[0m15:00:03.832803 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m15:00:03.835801 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_Caio_não_apagar'
+[0m15:00:03.854791 [debug] [ThreadPool]: dbt-sqlserver
+[0m15:00:03.855790 [debug] [ThreadPool]: Using sqlserver connection "list_Caio_não_apagar"
+[0m15:00:03.856790 [debug] [ThreadPool]: On list_Caio_não_apagar: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_Caio_n\u00e3o_apagar"} */
+USE [Caio_não_apagar];
+    select  name as [schema]
+    from sys.schemas with (nolock) 
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m15:00:03.856790 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:00:03.857790 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:00:03.916214 [debug] [ThreadPool]: fabric adapter: Connected to db: Caio_não_apagar
+[0m15:00:03.930205 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:00:03.934204 [debug] [ThreadPool]: On list_Caio_não_apagar: Close
+[0m15:00:03.936205 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_Caio_não_apagar_dbo'
+[0m15:00:03.944206 [debug] [ThreadPool]: dbt-sqlserver
+[0m15:00:03.944206 [debug] [ThreadPool]: Using sqlserver connection "list_Caio_não_apagar_dbo"
+[0m15:00:03.945210 [debug] [ThreadPool]: On list_Caio_não_apagar_dbo: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_Caio_n\u00e3o_apagar_dbo"} */
+USE [Caio_não_apagar];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'dbo'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m15:00:03.945210 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:00:03.946210 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:00:03.948552 [debug] [ThreadPool]: fabric adapter: Connected to db: Caio_não_apagar
+[0m15:00:03.979268 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:00:04.025534 [debug] [ThreadPool]: On list_Caio_não_apagar_dbo: ROLLBACK
+[0m15:00:04.027742 [debug] [ThreadPool]: On list_Caio_não_apagar_dbo: Close
+[0m15:00:04.318599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3945c790-efed-43cc-8d02-9383d7751963', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F25672510>]}
+[0m15:00:04.319601 [debug] [MainThread]: On master: COMMIT
+[0m15:00:04.319601 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:00:04.320597 [info ] [MainThread]: 
+[0m15:00:04.327153 [debug] [Thread-1 (]: Began running node seed.pipeline_01.country_codes
+[0m15:00:04.328155 [info ] [Thread-1 (]: 1 of 1 START seed file dbo.country_codes ....................................... [RUN]
+[0m15:00:04.329154 [debug] [Thread-1 (]: Acquiring new sqlserver connection 'seed.pipeline_01.country_codes'
+[0m15:00:04.330155 [debug] [Thread-1 (]: Began compiling node seed.pipeline_01.country_codes
+[0m15:00:04.330155 [debug] [Thread-1 (]: Began executing node seed.pipeline_01.country_codes
+[0m15:00:04.375127 [debug] [Thread-1 (]: Using sqlserver connection "seed.pipeline_01.country_codes"
+[0m15:00:04.376127 [debug] [Thread-1 (]: On seed.pipeline_01.country_codes: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "node_id": "seed.pipeline_01.country_codes"} */
+
+    create table "Caio_não_apagar"."dbo"."country_codes" ("country_code" varchar(16),"country_name" varchar(16))
+  
+[0m15:00:04.377127 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m15:00:04.377127 [debug] [Thread-1 (]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:00:04.382139 [debug] [Thread-1 (]: fabric adapter: Connected to db: Caio_não_apagar
+[0m15:00:04.389129 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:00:04.405138 [debug] [Thread-1 (]: Inserting batches of 400 records
+[0m15:00:04.409136 [debug] [Thread-1 (]: Using sqlserver connection "seed.pipeline_01.country_codes"
+[0m15:00:04.409136 [debug] [Thread-1 (]: On seed.pipeline_01.country_codes: 
+          insert into "Caio_não_apagar"."dbo"."country_codes" ("country_code", "country_name") values
+          (?,?),(?,?),(?,?),(?,?)
+      ...
+[0m15:00:04.421219 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:00:04.428219 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.pipeline_01.country_codes"
+[0m15:00:04.453216 [debug] [Thread-1 (]: On seed.pipeline_01.country_codes: COMMIT
+[0m15:00:04.455216 [debug] [Thread-1 (]: On seed.pipeline_01.country_codes: Close
+[0m15:00:04.457203 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3945c790-efed-43cc-8d02-9383d7751963', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F256E6950>]}
+[0m15:00:04.458201 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file dbo.country_codes ................................... [[32mINSERT 4[0m in 0.13s]
+[0m15:00:04.459545 [debug] [Thread-1 (]: Finished running node seed.pipeline_01.country_codes
+[0m15:00:04.460622 [debug] [MainThread]: On master: COMMIT
+[0m15:00:04.461638 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:00:04.462625 [debug] [MainThread]: Connection 'list_Caio_não_apagar' was properly closed.
+[0m15:00:04.462625 [debug] [MainThread]: Connection 'list_Caio_não_apagar_dbo' was properly closed.
+[0m15:00:04.463624 [debug] [MainThread]: Connection 'seed.pipeline_01.country_codes' was properly closed.
+[0m15:00:04.463624 [info ] [MainThread]: 
+[0m15:00:04.464623 [info ] [MainThread]: Finished running 1 seed in 0 hours 0 minutes and 0.63 seconds (0.63s).
+[0m15:00:04.466621 [debug] [MainThread]: Command end result
+[0m15:00:04.507599 [info ] [MainThread]: 
+[0m15:00:04.508598 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:00:04.509608 [info ] [MainThread]: 
+[0m15:00:04.509608 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m15:00:04.511596 [debug] [MainThread]: Command `dbt seed` succeeded at 15:00:04.511596 after 1.98 seconds
+[0m15:00:04.512595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F22E35050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F1C8E39D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F24798510>]}
+[0m15:00:04.512595 [debug] [MainThread]: Flushing usage events
+[0m15:03:36.202790 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBDA5EF8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBDA5EF810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBDA5EFB90>]}
+
+
+============================== 15:03:36.207801 | 43cb6a78-2972-46ea-83d2-87efda517276 ==============================
+[0m15:03:36.207801 [info ] [MainThread]: Running with dbt=1.8.9
+[0m15:03:36.208787 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m15:03:36.227033 [info ] [MainThread]: dbt version: 1.8.9
+[0m15:03:36.229033 [info ] [MainThread]: python version: 3.11.9
+[0m15:03:36.230033 [info ] [MainThread]: python path: C:\Users\caio\AppData\Local\Programs\Python\Python311\python.exe
+[0m15:03:36.231032 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m15:03:36.483901 [info ] [MainThread]: Using profiles dir at C:\Users\caio\.dbt
+[0m15:03:36.484900 [info ] [MainThread]: Using profiles.yml file at C:\Users\caio\.dbt\profiles.yml
+[0m15:03:36.485895 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\caio\Desktop\Pipeline 1\dbt_project.yml
+[0m15:03:36.486885 [info ] [MainThread]: adapter type: sqlserver
+[0m15:03:36.486885 [info ] [MainThread]: adapter version: 1.8.7
+[0m15:03:36.579845 [info ] [MainThread]: Configuration:
+[0m15:03:36.579845 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:03:36.580840 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:03:36.581831 [info ] [MainThread]: Required dependencies:
+[0m15:03:36.582830 [debug] [MainThread]: Executing "git --help"
+[0m15:03:36.622814 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:03:36.623828 [debug] [MainThread]: STDERR: "b''"
+[0m15:03:36.624827 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:03:36.624827 [info ] [MainThread]: Connection:
+[0m15:03:36.625813 [info ] [MainThread]:   server: localhost\SQL2019EXPRESS
+[0m15:03:36.626820 [info ] [MainThread]:   database: Caio_não_apagar
+[0m15:03:36.626820 [info ] [MainThread]:   schema: dbo
+[0m15:03:36.627825 [info ] [MainThread]:   UID: None
+[0m15:03:36.628830 [info ] [MainThread]:   client_id: None
+[0m15:03:36.629812 [info ] [MainThread]:   authentication: Windows Login
+[0m15:03:36.630811 [info ] [MainThread]:   encrypt: True
+[0m15:03:36.632809 [info ] [MainThread]:   trust_cert: True
+[0m15:03:36.633833 [info ] [MainThread]:   retries: 3
+[0m15:03:36.634809 [info ] [MainThread]:   login_timeout: 0
+[0m15:03:36.635808 [info ] [MainThread]:   query_timeout: 0
+[0m15:03:36.635808 [info ] [MainThread]:   trace_flag: False
+[0m15:03:36.636820 [info ] [MainThread]:   port: 1433
+[0m15:03:36.637807 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m15:03:36.917660 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m15:03:36.918659 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m15:03:36.919659 [debug] [MainThread]: On debug: select 1 as id
+[0m15:03:36.919659 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:03:36.920658 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:03:36.968490 [debug] [MainThread]: fabric adapter: Connected to db: Caio_não_apagar
+[0m15:03:36.970509 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:03:36.973507 [debug] [MainThread]: On debug: Close
+[0m15:03:36.974506 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:03:36.976483 [info ] [MainThread]: [32mAll checks passed![0m
+[0m15:03:36.979503 [debug] [MainThread]: Command `dbt debug` succeeded at 15:03:36.978485 after 0.85 seconds
+[0m15:03:36.980503 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:03:36.981502 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBDA64A850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBDA3F5050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBD3F739D0>]}
+[0m15:03:36.982501 [debug] [MainThread]: Flushing usage events
+[0m15:04:53.567278 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D5413FB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D5413F990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D5413F610>]}
+
+
+============================== 15:04:53.571289 | 39604b71-a304-40af-b0f6-a80cc6f79def ==============================
+[0m15:04:53.571289 [info ] [MainThread]: Running with dbt=1.8.9
+[0m15:04:53.572276 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:04:53.590732 [info ] [MainThread]: dbt version: 1.8.9
+[0m15:04:53.591734 [info ] [MainThread]: python version: 3.11.9
+[0m15:04:53.592731 [info ] [MainThread]: python path: C:\Users\caio\AppData\Local\Programs\Python\Python311\python.exe
+[0m15:04:53.592731 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m15:04:53.850584 [info ] [MainThread]: Using profiles dir at C:\Users\caio\.dbt
+[0m15:04:53.851597 [info ] [MainThread]: Using profiles.yml file at C:\Users\caio\.dbt\profiles.yml
+[0m15:04:53.852583 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\caio\Desktop\Pipeline 1\dbt_project.yml
+[0m15:04:53.853603 [info ] [MainThread]: adapter type: sqlserver
+[0m15:04:53.854584 [info ] [MainThread]: adapter version: 1.8.7
+[0m15:04:53.950540 [info ] [MainThread]: Configuration:
+[0m15:04:53.951539 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:04:53.952527 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:04:53.953544 [info ] [MainThread]: Required dependencies:
+[0m15:04:53.954525 [debug] [MainThread]: Executing "git --help"
+[0m15:04:53.995501 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:04:53.996502 [debug] [MainThread]: STDERR: "b''"
+[0m15:04:53.997499 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:04:53.999499 [info ] [MainThread]: Connection:
+[0m15:04:54.000506 [info ] [MainThread]:   server: localhost\SQL2019EXPRESS
+[0m15:04:54.002501 [info ] [MainThread]:   database: Caio_não_apagar
+[0m15:04:54.003498 [info ] [MainThread]:   schema: dbo
+[0m15:04:54.004497 [info ] [MainThread]:   UID: None
+[0m15:04:54.005515 [info ] [MainThread]:   client_id: None
+[0m15:04:54.006509 [info ] [MainThread]:   authentication: Windows Login
+[0m15:04:54.006509 [info ] [MainThread]:   encrypt: True
+[0m15:04:54.007495 [info ] [MainThread]:   trust_cert: True
+[0m15:04:54.008493 [info ] [MainThread]:   retries: 3
+[0m15:04:54.008493 [info ] [MainThread]:   login_timeout: 0
+[0m15:04:54.009494 [info ] [MainThread]:   query_timeout: 0
+[0m15:04:54.010493 [info ] [MainThread]:   trace_flag: False
+[0m15:04:54.011512 [info ] [MainThread]:   port: 1433
+[0m15:04:54.012495 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m15:04:54.298328 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m15:04:54.299328 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m15:04:54.299328 [debug] [MainThread]: On debug: select 1 as id
+[0m15:04:54.300327 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:04:54.300327 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:04:54.341973 [debug] [MainThread]: fabric adapter: Connected to db: Caio_não_apagar
+[0m15:04:54.342972 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:04:54.343985 [debug] [MainThread]: On debug: Close
+[0m15:04:54.344984 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:04:54.345970 [info ] [MainThread]: [32mAll checks passed![0m
+[0m15:04:54.346971 [debug] [MainThread]: Command `dbt debug` succeeded at 15:04:54.346971 after 0.85 seconds
+[0m15:04:54.347969 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:04:54.348969 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D54169ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D559337D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D4DA539D0>]}
+[0m15:04:54.348969 [debug] [MainThread]: Flushing usage events
+[0m15:07:20.235082 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BE1BCC590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BE1C1B210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BE1C1A6D0>]}
+
+
+============================== 15:07:20.239084 | 4c0b1d9b-9f90-44a9-9650-75ddcef92c03 ==============================
+[0m15:07:20.239084 [info ] [MainThread]: Running with dbt=1.8.9
+[0m15:07:20.241068 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt seed', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:07:20.623849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4c0b1d9b-9f90-44a9-9650-75ddcef92c03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BE33AF4D0>]}
+[0m15:07:20.678818 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4c0b1d9b-9f90-44a9-9650-75ddcef92c03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BE1045090>]}
+[0m15:07:20.679817 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m15:07:20.989640 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m15:07:21.148549 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:07:21.148549 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:07:21.155545 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 4 unused configuration paths:
+- models.pipeline_01.marts
+- models.pipeline_01.seeds
+- models.pipeline_01.intermediate
+- models.pipeline_01.staging
+[0m15:07:21.188526 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4c0b1d9b-9f90-44a9-9650-75ddcef92c03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BE1C4CE90>]}
+[0m15:07:21.287470 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4c0b1d9b-9f90-44a9-9650-75ddcef92c03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BDF1D61D0>]}
+[0m15:07:21.287470 [info ] [MainThread]: Found 1 seed, 1 source, 504 macros
+[0m15:07:21.288484 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4c0b1d9b-9f90-44a9-9650-75ddcef92c03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BE36E83D0>]}
+[0m15:07:21.290482 [info ] [MainThread]: 
+[0m15:07:21.291468 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m15:07:21.293238 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_Caio_não_apagar'
+[0m15:07:21.312230 [debug] [ThreadPool]: dbt-sqlserver
+[0m15:07:21.314244 [debug] [ThreadPool]: Using sqlserver connection "list_Caio_não_apagar"
+[0m15:07:21.315229 [debug] [ThreadPool]: On list_Caio_não_apagar: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_Caio_n\u00e3o_apagar"} */
+USE [Caio_não_apagar];
+    select  name as [schema]
+    from sys.schemas with (nolock) 
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m15:07:21.315229 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:07:21.316242 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:07:21.374342 [debug] [ThreadPool]: fabric adapter: Connected to db: Caio_não_apagar
+[0m15:07:21.376341 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:07:21.378337 [debug] [ThreadPool]: On list_Caio_não_apagar: Close
+[0m15:07:21.380337 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_Caio_não_apagar_dbo'
+[0m15:07:21.386332 [debug] [ThreadPool]: dbt-sqlserver
+[0m15:07:21.387332 [debug] [ThreadPool]: Using sqlserver connection "list_Caio_não_apagar_dbo"
+[0m15:07:21.388332 [debug] [ThreadPool]: On list_Caio_não_apagar_dbo: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_Caio_n\u00e3o_apagar_dbo"} */
+USE [Caio_não_apagar];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'dbo'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m15:07:21.388332 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:07:21.389331 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:07:21.389331 [debug] [ThreadPool]: fabric adapter: Connected to db: Caio_não_apagar
+[0m15:07:21.419313 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:07:21.520261 [debug] [ThreadPool]: On list_Caio_não_apagar_dbo: ROLLBACK
+[0m15:07:21.521260 [debug] [ThreadPool]: On list_Caio_não_apagar_dbo: Close
+[0m15:07:21.830064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4c0b1d9b-9f90-44a9-9650-75ddcef92c03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BE41634D0>]}
+[0m15:07:21.831064 [debug] [MainThread]: On master: COMMIT
+[0m15:07:21.832064 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:07:21.833064 [info ] [MainThread]: 
+[0m15:07:21.836864 [debug] [Thread-1 (]: Began running node seed.pipeline_01.country_codes
+[0m15:07:21.837865 [info ] [Thread-1 (]: 1 of 1 START seed file dbo.country_codes ....................................... [RUN]
+[0m15:07:21.838142 [debug] [Thread-1 (]: Acquiring new sqlserver connection 'seed.pipeline_01.country_codes'
+[0m15:07:21.839145 [debug] [Thread-1 (]: Began compiling node seed.pipeline_01.country_codes
+[0m15:07:21.840142 [debug] [Thread-1 (]: Began executing node seed.pipeline_01.country_codes
+[0m15:07:21.889128 [debug] [Thread-1 (]: Using sqlserver connection "seed.pipeline_01.country_codes"
+[0m15:07:21.890128 [debug] [Thread-1 (]: On seed.pipeline_01.country_codes: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "node_id": "seed.pipeline_01.country_codes"} */
+truncate table "Caio_não_apagar"."dbo"."country_codes"
+[0m15:07:21.891127 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m15:07:21.891127 [debug] [Thread-1 (]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:07:21.892127 [debug] [Thread-1 (]: fabric adapter: Connected to db: Caio_não_apagar
+[0m15:07:21.898441 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:07:21.915435 [debug] [Thread-1 (]: Inserting batches of 400 records
+[0m15:07:21.919445 [debug] [Thread-1 (]: Using sqlserver connection "seed.pipeline_01.country_codes"
+[0m15:07:21.920445 [debug] [Thread-1 (]: On seed.pipeline_01.country_codes: 
+          insert into "Caio_não_apagar"."dbo"."country_codes" ("country_code", "country_name") values
+          (?,?),(?,?),(?,?),(?,?)
+      ...
+[0m15:07:21.923302 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:07:21.929198 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.pipeline_01.country_codes"
+[0m15:07:21.951186 [debug] [Thread-1 (]: On seed.pipeline_01.country_codes: COMMIT
+[0m15:07:21.953185 [debug] [Thread-1 (]: On seed.pipeline_01.country_codes: Close
+[0m15:07:21.955183 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4c0b1d9b-9f90-44a9-9650-75ddcef92c03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BE418BC50>]}
+[0m15:07:21.956183 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file dbo.country_codes ................................... [[32mINSERT 4[0m in 0.12s]
+[0m15:07:21.957197 [debug] [Thread-1 (]: Finished running node seed.pipeline_01.country_codes
+[0m15:07:21.958183 [debug] [MainThread]: On master: COMMIT
+[0m15:07:21.959196 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:07:21.959196 [debug] [MainThread]: Connection 'list_Caio_não_apagar' was properly closed.
+[0m15:07:21.960180 [debug] [MainThread]: Connection 'list_Caio_não_apagar_dbo' was properly closed.
+[0m15:07:21.960180 [debug] [MainThread]: Connection 'seed.pipeline_01.country_codes' was properly closed.
+[0m15:07:21.961182 [info ] [MainThread]: 
+[0m15:07:21.962180 [info ] [MainThread]: Finished running 1 seed in 0 hours 0 minutes and 0.67 seconds (0.67s).
+[0m15:07:21.963188 [debug] [MainThread]: Command end result
+[0m15:07:22.004156 [info ] [MainThread]: 
+[0m15:07:22.005155 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:07:22.006166 [info ] [MainThread]: 
+[0m15:07:22.007154 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m15:07:22.009155 [debug] [MainThread]: Command `dbt seed` succeeded at 15:07:22.009155 after 1.85 seconds
+[0m15:07:22.010154 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BE19D4FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BE091EE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BDB4F39D0>]}
+[0m15:07:22.010154 [debug] [MainThread]: Flushing usage events
+[0m15:09:13.503214 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002280888D290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002280888EA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002280888D4D0>]}
+
+
+============================== 15:09:13.507213 | c2168ba5-597c-40a8-974a-9478a8554e98 ==============================
+[0m15:09:13.507213 [info ] [MainThread]: Running with dbt=1.8.9
+[0m15:09:13.508199 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt seed', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:09:13.889979 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c2168ba5-597c-40a8-974a-9478a8554e98', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002280A13FFD0>]}
+[0m15:09:13.941949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c2168ba5-597c-40a8-974a-9478a8554e98', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022807D01050>]}
+[0m15:09:13.942949 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m15:09:14.232785 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m15:09:14.397703 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:09:14.397703 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:09:14.403699 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 4 unused configuration paths:
+- models.pipeline_01.seeds
+- models.pipeline_01.marts
+- models.pipeline_01.staging
+- models.pipeline_01.intermediate
+[0m15:09:14.430689 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c2168ba5-597c-40a8-974a-9478a8554e98', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002280A4B0910>]}
+[0m15:09:14.525624 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c2168ba5-597c-40a8-974a-9478a8554e98', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002280A45B390>]}
+[0m15:09:14.526615 [info ] [MainThread]: Found 1 seed, 1 source, 504 macros
+[0m15:09:14.527615 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c2168ba5-597c-40a8-974a-9478a8554e98', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022809FA7D90>]}
+[0m15:09:14.529632 [info ] [MainThread]: 
+[0m15:09:14.530631 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m15:09:14.531878 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_Caio_não_apagar'
+[0m15:09:14.549890 [debug] [ThreadPool]: dbt-sqlserver
+[0m15:09:14.550890 [debug] [ThreadPool]: Using sqlserver connection "list_Caio_não_apagar"
+[0m15:09:14.551871 [debug] [ThreadPool]: On list_Caio_não_apagar: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_Caio_n\u00e3o_apagar"} */
+USE [Caio_não_apagar];
+    select  name as [schema]
+    from sys.schemas with (nolock) 
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m15:09:14.552870 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:09:14.553888 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:09:14.610815 [debug] [ThreadPool]: fabric adapter: Connected to db: Caio_não_apagar
+[0m15:09:14.613815 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:09:14.615827 [debug] [ThreadPool]: On list_Caio_não_apagar: Close
+[0m15:09:14.617815 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_Caio_não_apagar_dbo'
+[0m15:09:14.624808 [debug] [ThreadPool]: dbt-sqlserver
+[0m15:09:14.625808 [debug] [ThreadPool]: Using sqlserver connection "list_Caio_não_apagar_dbo"
+[0m15:09:14.626806 [debug] [ThreadPool]: On list_Caio_não_apagar_dbo: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_Caio_n\u00e3o_apagar_dbo"} */
+USE [Caio_não_apagar];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'dbo'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m15:09:14.626806 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:09:14.627807 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:09:14.628804 [debug] [ThreadPool]: fabric adapter: Connected to db: Caio_não_apagar
+[0m15:09:14.652792 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:09:14.757732 [debug] [ThreadPool]: On list_Caio_não_apagar_dbo: ROLLBACK
+[0m15:09:14.758731 [debug] [ThreadPool]: On list_Caio_não_apagar_dbo: Close
+[0m15:09:15.048579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c2168ba5-597c-40a8-974a-9478a8554e98', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002280A60D5D0>]}
+[0m15:09:15.049577 [debug] [MainThread]: On master: COMMIT
+[0m15:09:15.050563 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:09:15.050563 [info ] [MainThread]: 
+[0m15:09:15.054022 [debug] [Thread-1 (]: Began running node seed.pipeline_01.country_codes
+[0m15:09:15.055034 [info ] [Thread-1 (]: 1 of 1 START seed file dbo.country_codes ....................................... [RUN]
+[0m15:09:15.056023 [debug] [Thread-1 (]: Acquiring new sqlserver connection 'seed.pipeline_01.country_codes'
+[0m15:09:15.057022 [debug] [Thread-1 (]: Began compiling node seed.pipeline_01.country_codes
+[0m15:09:15.057022 [debug] [Thread-1 (]: Began executing node seed.pipeline_01.country_codes
+[0m15:09:15.106008 [debug] [Thread-1 (]: Using sqlserver connection "seed.pipeline_01.country_codes"
+[0m15:09:15.107009 [debug] [Thread-1 (]: On seed.pipeline_01.country_codes: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "node_id": "seed.pipeline_01.country_codes"} */
+truncate table "Caio_não_apagar"."dbo"."country_codes"
+[0m15:09:15.107009 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m15:09:15.108007 [debug] [Thread-1 (]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:09:15.109008 [debug] [Thread-1 (]: fabric adapter: Connected to db: Caio_não_apagar
+[0m15:09:15.110994 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:09:15.127000 [debug] [Thread-1 (]: Inserting batches of 400 records
+[0m15:09:15.130998 [debug] [Thread-1 (]: Using sqlserver connection "seed.pipeline_01.country_codes"
+[0m15:09:15.131998 [debug] [Thread-1 (]: On seed.pipeline_01.country_codes: 
+          insert into "Caio_não_apagar"."dbo"."country_codes" ("country_code", "country_name") values
+          (?,?),(?,?),(?,?),(?,?)
+      ...
+[0m15:09:15.134487 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:09:15.140500 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.pipeline_01.country_codes"
+[0m15:09:15.162473 [debug] [Thread-1 (]: On seed.pipeline_01.country_codes: COMMIT
+[0m15:09:15.164485 [debug] [Thread-1 (]: On seed.pipeline_01.country_codes: Close
+[0m15:09:15.166484 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c2168ba5-597c-40a8-974a-9478a8554e98', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002280AE43C50>]}
+[0m15:09:15.167484 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file dbo.country_codes ................................... [[32mINSERT 4[0m in 0.11s]
+[0m15:09:15.168470 [debug] [Thread-1 (]: Finished running node seed.pipeline_01.country_codes
+[0m15:09:15.170474 [debug] [MainThread]: On master: COMMIT
+[0m15:09:15.171470 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:09:15.171470 [debug] [MainThread]: Connection 'list_Caio_não_apagar' was properly closed.
+[0m15:09:15.172471 [debug] [MainThread]: Connection 'list_Caio_não_apagar_dbo' was properly closed.
+[0m15:09:15.172471 [debug] [MainThread]: Connection 'seed.pipeline_01.country_codes' was properly closed.
+[0m15:09:15.173466 [info ] [MainThread]: 
+[0m15:09:15.173466 [info ] [MainThread]: Finished running 1 seed in 0 hours 0 minutes and 0.64 seconds (0.64s).
+[0m15:09:15.175480 [debug] [MainThread]: Command end result
+[0m15:09:15.214444 [info ] [MainThread]: 
+[0m15:09:15.215445 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:09:15.216462 [info ] [MainThread]: 
+[0m15:09:15.217442 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m15:09:15.219481 [debug] [MainThread]: Command `dbt seed` succeeded at 15:09:15.219481 after 1.79 seconds
+[0m15:09:15.219481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228021339D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228020B69D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228020B6A50>]}
+[0m15:09:15.220454 [debug] [MainThread]: Flushing usage events
+[0m15:12:39.559036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9D5D9EA10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9D5D9B250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9D5DC7FD0>]}
+
+
+============================== 15:12:39.563052 | 332209cc-187e-45ad-a1d1-f0a1cd3ec95e ==============================
+[0m15:12:39.563052 [info ] [MainThread]: Running with dbt=1.8.9
+[0m15:12:39.564033 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt seed', 'send_anonymous_usage_stats': 'True'}
+[0m15:12:39.976797 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '332209cc-187e-45ad-a1d1-f0a1cd3ec95e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9D765C6D0>]}
+[0m15:12:40.030780 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '332209cc-187e-45ad-a1d1-f0a1cd3ec95e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9D5218FD0>]}
+[0m15:12:40.031779 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m15:12:40.326596 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m15:12:40.519486 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:12:40.520486 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:12:40.530480 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.pipeline_01.marts
+- models.pipeline_01.staging
+- models.pipeline_01.intermediate
+[0m15:12:40.565478 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '332209cc-187e-45ad-a1d1-f0a1cd3ec95e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9D7504050>]}
+[0m15:12:40.661405 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '332209cc-187e-45ad-a1d1-f0a1cd3ec95e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9D791C150>]}
+[0m15:12:40.662405 [info ] [MainThread]: Found 1 seed, 1 source, 504 macros
+[0m15:12:40.663414 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '332209cc-187e-45ad-a1d1-f0a1cd3ec95e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9D7518FD0>]}
+[0m15:12:40.665404 [info ] [MainThread]: 
+[0m15:12:40.667404 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m15:12:40.668403 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_Caio_não_apagar'
+[0m15:12:40.689407 [debug] [ThreadPool]: dbt-sqlserver
+[0m15:12:40.690407 [debug] [ThreadPool]: Using sqlserver connection "list_Caio_não_apagar"
+[0m15:12:40.690407 [debug] [ThreadPool]: On list_Caio_não_apagar: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_Caio_n\u00e3o_apagar"} */
+USE [Caio_não_apagar];
+    select  name as [schema]
+    from sys.schemas with (nolock) 
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m15:12:40.691401 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:12:40.692401 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:12:40.746925 [debug] [ThreadPool]: fabric adapter: Connected to db: Caio_não_apagar
+[0m15:12:40.749921 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:12:40.751935 [debug] [ThreadPool]: On list_Caio_não_apagar: Close
+[0m15:12:40.752940 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_Caio_não_apagar, now create_Caio_não_apagar_seeds)
+[0m15:12:40.753920 [debug] [ThreadPool]: Creating schema "database: "Caio_não_apagar"
+schema: "seeds"
+"
+[0m15:12:40.759930 [debug] [ThreadPool]: Using sqlserver connection "create_Caio_não_apagar_seeds"
+[0m15:12:40.760930 [debug] [ThreadPool]: On create_Caio_não_apagar_seeds: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "create_Caio_n\u00e3o_apagar_seeds"} */
+USE [Caio_não_apagar];
+    IF NOT EXISTS (SELECT * FROM sys.schemas WHERE name = 'seeds')
+    BEGIN
+    EXEC('CREATE SCHEMA [seeds]')
+    END
+  
+[0m15:12:40.760930 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:12:40.761930 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:12:40.762921 [debug] [ThreadPool]: fabric adapter: Connected to db: Caio_não_apagar
+[0m15:12:40.770620 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:12:40.773642 [debug] [ThreadPool]: On create_Caio_não_apagar_seeds: COMMIT
+[0m15:12:40.774621 [debug] [ThreadPool]: On create_Caio_não_apagar_seeds: Close
+[0m15:12:40.777702 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_Caio_não_apagar_seeds'
+[0m15:12:40.791698 [debug] [ThreadPool]: dbt-sqlserver
+[0m15:12:40.792696 [debug] [ThreadPool]: Using sqlserver connection "list_Caio_não_apagar_seeds"
+[0m15:12:40.793697 [debug] [ThreadPool]: On list_Caio_não_apagar_seeds: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_Caio_n\u00e3o_apagar_seeds"} */
+USE [Caio_não_apagar];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'seeds'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m15:12:40.794716 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:12:40.795698 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:12:40.797698 [debug] [ThreadPool]: fabric adapter: Connected to db: Caio_não_apagar
+[0m15:12:40.830688 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:12:40.832673 [debug] [ThreadPool]: On list_Caio_não_apagar_seeds: ROLLBACK
+[0m15:12:40.833672 [debug] [ThreadPool]: On list_Caio_não_apagar_seeds: Close
+[0m15:12:40.834671 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '332209cc-187e-45ad-a1d1-f0a1cd3ec95e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9D790CD50>]}
+[0m15:12:40.834671 [debug] [MainThread]: On master: COMMIT
+[0m15:12:40.835685 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:12:40.836672 [info ] [MainThread]: 
+[0m15:12:40.840528 [debug] [Thread-1 (]: Began running node seed.pipeline_01.country_codes
+[0m15:12:40.841540 [info ] [Thread-1 (]: 1 of 1 START seed file seeds.country_codes ..................................... [RUN]
+[0m15:12:40.842530 [debug] [Thread-1 (]: Acquiring new sqlserver connection 'seed.pipeline_01.country_codes'
+[0m15:12:40.843529 [debug] [Thread-1 (]: Began compiling node seed.pipeline_01.country_codes
+[0m15:12:40.843529 [debug] [Thread-1 (]: Began executing node seed.pipeline_01.country_codes
+[0m15:12:40.917487 [debug] [Thread-1 (]: Using sqlserver connection "seed.pipeline_01.country_codes"
+[0m15:12:40.918486 [debug] [Thread-1 (]: On seed.pipeline_01.country_codes: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "node_id": "seed.pipeline_01.country_codes"} */
+
+    create table "Caio_não_apagar"."seeds"."country_codes" ("country_code" varchar(16),"country_name" varchar(16))
+  
+[0m15:12:40.919485 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m15:12:40.919485 [debug] [Thread-1 (]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=Caio_não_apagar;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:12:40.922483 [debug] [Thread-1 (]: fabric adapter: Connected to db: Caio_não_apagar
+[0m15:12:40.925481 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:12:40.942472 [debug] [Thread-1 (]: Inserting batches of 400 records
+[0m15:12:40.946470 [debug] [Thread-1 (]: Using sqlserver connection "seed.pipeline_01.country_codes"
+[0m15:12:40.947469 [debug] [Thread-1 (]: On seed.pipeline_01.country_codes: 
+          insert into "Caio_não_apagar"."seeds"."country_codes" ("country_code", "country_name") values
+          (?,?),(?,?),(?,?),(?,?)
+      ...
+[0m15:12:40.950468 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:12:40.956463 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.pipeline_01.country_codes"
+[0m15:12:40.983449 [debug] [Thread-1 (]: On seed.pipeline_01.country_codes: COMMIT
+[0m15:12:40.985448 [debug] [Thread-1 (]: On seed.pipeline_01.country_codes: Close
+[0m15:12:40.986447 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '332209cc-187e-45ad-a1d1-f0a1cd3ec95e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9D7B14250>]}
+[0m15:12:40.988446 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file seeds.country_codes ................................. [[32mINSERT 4[0m in 0.14s]
+[0m15:12:40.989445 [debug] [Thread-1 (]: Finished running node seed.pipeline_01.country_codes
+[0m15:12:40.990444 [debug] [MainThread]: On master: COMMIT
+[0m15:12:40.991444 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:12:40.992443 [debug] [MainThread]: Connection 'create_Caio_não_apagar_seeds' was properly closed.
+[0m15:12:40.992443 [debug] [MainThread]: Connection 'list_Caio_não_apagar_seeds' was properly closed.
+[0m15:12:40.993444 [debug] [MainThread]: Connection 'seed.pipeline_01.country_codes' was properly closed.
+[0m15:12:40.994443 [info ] [MainThread]: 
+[0m15:12:40.994443 [info ] [MainThread]: Finished running 1 seed in 0 hours 0 minutes and 0.33 seconds (0.33s).
+[0m15:12:40.996442 [debug] [MainThread]: Command end result
+[0m15:12:41.113374 [info ] [MainThread]: 
+[0m15:12:41.114374 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:12:41.115373 [info ] [MainThread]: 
+[0m15:12:41.116373 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m15:12:41.118372 [debug] [MainThread]: Command `dbt seed` succeeded at 15:12:41.118372 after 1.64 seconds
+[0m15:12:41.119371 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9CF6439D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9D7552350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9CF5C7710>]}
+[0m15:12:41.120370 [debug] [MainThread]: Flushing usage events
+[0m15:50:11.617167 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD7ED1E890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD7ED1EE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD7ED1E410>]}
+
+
+============================== 15:50:11.621165 | 36bf1ab0-1782-47fd-8b77-5437ed09341b ==============================
+[0m15:50:11.621165 [info ] [MainThread]: Running with dbt=1.8.9
+[0m15:50:11.622166 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\caio\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:50:11.643514 [info ] [MainThread]: dbt version: 1.8.9
+[0m15:50:11.644514 [info ] [MainThread]: python version: 3.11.9
+[0m15:50:11.645020 [info ] [MainThread]: python path: C:\Users\caio\AppData\Local\Programs\Python\Python311\python.exe
+[0m15:50:11.646022 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m15:50:11.909236 [info ] [MainThread]: Using profiles dir at C:\Users\caio\.dbt
+[0m15:50:11.910235 [info ] [MainThread]: Using profiles.yml file at C:\Users\caio\.dbt\profiles.yml
+[0m15:50:11.911240 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\caio\Desktop\Pipeline 1\dbt_project.yml
+[0m15:50:11.912221 [info ] [MainThread]: adapter type: sqlserver
+[0m15:50:11.913234 [info ] [MainThread]: adapter version: 1.8.7
+[0m15:50:12.006181 [info ] [MainThread]: Configuration:
+[0m15:50:12.007184 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:50:12.009176 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:50:12.009176 [info ] [MainThread]: Required dependencies:
+[0m15:50:12.010183 [debug] [MainThread]: Executing "git --help"
+[0m15:50:12.052140 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:50:12.053155 [debug] [MainThread]: STDERR: "b''"
+[0m15:50:12.054139 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:50:12.055139 [info ] [MainThread]: Connection:
+[0m15:50:12.057138 [info ] [MainThread]:   server: localhost\SQL2019EXPRESS
+[0m15:50:12.058137 [info ] [MainThread]:   database: AdventureWorks2019
+[0m15:50:12.059137 [info ] [MainThread]:   schema: Sales
+[0m15:50:12.060136 [info ] [MainThread]:   UID: None
+[0m15:50:12.061136 [info ] [MainThread]:   client_id: None
+[0m15:50:12.062136 [info ] [MainThread]:   authentication: Windows Login
+[0m15:50:12.063135 [info ] [MainThread]:   encrypt: True
+[0m15:50:12.065136 [info ] [MainThread]:   trust_cert: True
+[0m15:50:12.066133 [info ] [MainThread]:   retries: 3
+[0m15:50:12.067133 [info ] [MainThread]:   login_timeout: 0
+[0m15:50:12.068133 [info ] [MainThread]:   query_timeout: 0
+[0m15:50:12.069150 [info ] [MainThread]:   trace_flag: False
+[0m15:50:12.070152 [info ] [MainThread]:   port: 1433
+[0m15:50:12.071132 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m15:50:12.383970 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m15:50:12.384969 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m15:50:12.385964 [debug] [MainThread]: On debug: select 1 as id
+[0m15:50:12.385964 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:50:12.386968 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:50:12.429990 [debug] [MainThread]: fabric adapter: Connected to db: AdventureWorks2019
+[0m15:50:12.431008 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:50:12.432990 [debug] [MainThread]: On debug: Close
+[0m15:50:12.432990 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:50:12.433987 [info ] [MainThread]: [32mAll checks passed![0m
+[0m15:50:12.435988 [debug] [MainThread]: Command `dbt debug` succeeded at 15:50:12.435988 after 0.90 seconds
+[0m15:50:12.435988 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:50:12.436987 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD7EB25050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD786139D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD7859D250>]}
+[0m15:50:12.437985 [debug] [MainThread]: Flushing usage events
