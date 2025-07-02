@@ -1461,3 +1461,864 @@ USE [AdventureWorks2019];
 [0m14:13:17.287876 [debug] [MainThread]: Command `cli deps` succeeded at 14:13:17.287876 after 0.24 seconds
 [0m14:13:17.287876 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C581FDBCD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C581FB8290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C582006710>]}
 [0m14:13:17.288875 [debug] [MainThread]: Flushing usage events
+[0m08:29:53.273073 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D1C9FFE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D1C9FEE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D1C9FF5D0>]}
+
+
+============================== 08:29:53.280070 | dc1f6042-c9a0-4b6e-9ea8-48442be8848f ==============================
+[0m08:29:53.280070 [info ] [MainThread]: Running with dbt=1.8.9
+[0m08:29:53.281069 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'c:\\Users\\caio\\Desktop\\Pipeline 1', 'debug': 'False', 'warn_error': 'None', 'log_path': 'c:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt ', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m08:29:53.479478 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'dc1f6042-c9a0-4b6e-9ea8-48442be8848f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D1CAD2250>]}
+[0m08:29:53.508462 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m08:29:53.510461 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m08:29:53.512462 [debug] [MainThread]: Command `cli deps` succeeded at 08:29:53.512462 after 0.37 seconds
+[0m08:29:53.513460 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D1CA4B890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D1CA54890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D1CA56990>]}
+[0m08:29:53.513460 [debug] [MainThread]: Flushing usage events
+[0m09:12:27.644132 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A76B70F1D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A76B70C4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A76B70C810>]}
+
+
+============================== 09:12:27.648144 | 465a16fe-e963-4a6a-b396-55906782bf18 ==============================
+[0m09:12:27.648144 [info ] [MainThread]: Running with dbt=1.8.9
+[0m09:12:27.649141 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\caio\\Desktop\\Pipeline 1', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m09:12:28.021930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '465a16fe-e963-4a6a-b396-55906782bf18', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A76B515750>]}
+[0m09:12:28.075900 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '465a16fe-e963-4a6a-b396-55906782bf18', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A76AB85010>]}
+[0m09:12:28.076889 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m09:12:28.459234 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m09:12:28.649139 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:12:28.650139 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:12:28.657135 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.marts
+- models.intermediate
+- models.staging
+[0m09:12:28.710105 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '465a16fe-e963-4a6a-b396-55906782bf18', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A76D312290>]}
+[0m09:12:28.863219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '465a16fe-e963-4a6a-b396-55906782bf18', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A76B75A5D0>]}
+[0m09:12:28.863219 [info ] [MainThread]: Found 1 seed, 12 data tests, 1 model, 1 source, 504 macros
+[0m09:12:28.864218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '465a16fe-e963-4a6a-b396-55906782bf18', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A76B766850>]}
+[0m09:12:28.867230 [info ] [MainThread]: 
+[0m09:12:28.868229 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m09:12:28.870214 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_AdventureWorks2019'
+[0m09:12:28.891217 [debug] [ThreadPool]: dbt-sqlserver
+[0m09:12:28.892220 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2019"
+[0m09:12:28.893216 [debug] [ThreadPool]: On list_AdventureWorks2019: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_AdventureWorks2019"} */
+USE [AdventureWorks2019];
+    select  name as [schema]
+    from sys.schemas with (nolock) 
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m09:12:28.893216 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:12:28.894219 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:12:29.054780 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2019
+[0m09:12:29.058770 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m09:12:29.060757 [debug] [ThreadPool]: On list_AdventureWorks2019: Close
+[0m09:12:29.062756 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_AdventureWorks2019_Sales'
+[0m09:12:29.070751 [debug] [ThreadPool]: dbt-sqlserver
+[0m09:12:29.071750 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2019_Sales"
+[0m09:12:29.072748 [debug] [ThreadPool]: On list_AdventureWorks2019_Sales: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_AdventureWorks2019_Sales"} */
+USE [AdventureWorks2019];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'Sales'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m09:12:29.072748 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:12:29.073749 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:12:29.073749 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2019
+[0m09:12:29.105729 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m09:12:29.108420 [debug] [ThreadPool]: On list_AdventureWorks2019_Sales: ROLLBACK
+[0m09:12:29.109419 [debug] [ThreadPool]: On list_AdventureWorks2019_Sales: Close
+[0m09:12:29.110404 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_AdventureWorks2019_Sales, now list_AdventureWorks2019_seeds)
+[0m09:12:29.118400 [debug] [ThreadPool]: dbt-sqlserver
+[0m09:12:29.119399 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2019_seeds"
+[0m09:12:29.119399 [debug] [ThreadPool]: On list_AdventureWorks2019_seeds: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_AdventureWorks2019_seeds"} */
+USE [AdventureWorks2019];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'seeds'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m09:12:29.120399 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:12:29.121398 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:12:29.121398 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2019
+[0m09:12:29.142404 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m09:12:29.144400 [debug] [ThreadPool]: On list_AdventureWorks2019_seeds: ROLLBACK
+[0m09:12:29.145395 [debug] [ThreadPool]: On list_AdventureWorks2019_seeds: Close
+[0m09:12:29.146386 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '465a16fe-e963-4a6a-b396-55906782bf18', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A76D46A150>]}
+[0m09:12:29.147392 [debug] [MainThread]: On master: COMMIT
+[0m09:12:29.147392 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m09:12:29.148396 [info ] [MainThread]: 
+[0m09:12:29.155434 [debug] [Thread-1 (]: Began running node model.pipeline_01.stg.sales
+[0m09:12:29.156452 [info ] [Thread-1 (]: 1 of 1 START sql view model Sales.stg.sales .................................... [RUN]
+[0m09:12:29.157449 [debug] [Thread-1 (]: Acquiring new sqlserver connection 'model.pipeline_01.stg.sales'
+[0m09:12:29.158435 [debug] [Thread-1 (]: Began compiling node model.pipeline_01.stg.sales
+[0m09:12:29.167448 [debug] [Thread-1 (]: Writing injected SQL for node "model.pipeline_01.stg.sales"
+[0m09:12:29.171428 [debug] [Thread-1 (]: Began executing node model.pipeline_01.stg.sales
+[0m09:12:29.279379 [debug] [Thread-1 (]: Writing runtime sql for node "model.pipeline_01.stg.sales"
+[0m09:12:29.281364 [debug] [Thread-1 (]: Using sqlserver connection "model.pipeline_01.stg.sales"
+[0m09:12:29.281364 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "node_id": "model.pipeline_01.stg.sales"} */
+USE [AdventureWorks2019];
+    
+    
+
+    
+
+    
+    USE [AdventureWorks2019];
+    EXEC('
+        create view "Sales"."stg.sales__dbt_tmp" as With SalesOrderDetail as (
+        select
+            SalesOrderID as sales_order_id
+            , SalesOrderDetailID as sales_order_detail_id
+            , CarrierTrackingNumber as carrier_tracking_number
+            , OrderQty as order_qty
+            , SpecialOfferID as special_offer_id
+            , UnitPrice as unit_price
+            , UnitPriceDiscount as unit_price_discount
+            , LineTotal as line_total
+            , rowguid
+            , ModifiedDate as modified_date
+            , case
+                when carrier_tracking_number is null then ''Without Number''
+            end as tracking_number
+        from "AdventureWorks2019"."Sales"."SalesOrderDetail"
+  )
+select * from SalesOrderDetail;
+    ')
+
+
+[0m09:12:29.282364 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m09:12:29.283382 [debug] [Thread-1 (]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:12:29.286376 [debug] [Thread-1 (]: fabric adapter: Connected to db: AdventureWorks2019
+[0m09:12:29.294356 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m09:12:29.295357 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: ROLLBACK
+[0m09:12:29.296370 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: Close
+[0m09:12:29.297360 [error] [Thread-1 (]: [31mUnhandled error while executing target\run\pipeline_01\models\staging\AdventureWorks\stg.sales.sql[0m
+('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'carrier_tracking_number'. (207) (SQLMoreResults)")
+[0m09:12:29.398879 [debug] [Thread-1 (]: Traceback (most recent call last):
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\base.py", line 368, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\base.py", line 314, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\base.py", line 415, in run
+    return self.execute(compiled_node, manifest)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\run.py", line 298, in execute
+    result = MacroGenerator(
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\clients\jinja.py", line 84, in __call__
+    return self.call_macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt_common\clients\jinja.py", line 395, in call_macro
+    return macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\runtime.py", line 770, in __call__
+    return self._invoke(arguments, autoescape)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\runtime.py", line 784, in _invoke
+    rv = self._func(*arguments)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "<template>", line 81, in macro
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\sandbox.py", line 401, in call
+    return __context.call(__obj, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\runtime.py", line 303, in call
+    return __obj(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\clients\jinja.py", line 84, in __call__
+    return self.call_macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt_common\clients\jinja.py", line 395, in call_macro
+    return macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\runtime.py", line 770, in __call__
+    return self._invoke(arguments, autoescape)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\runtime.py", line 784, in _invoke
+    rv = self._func(*arguments)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "<template>", line 52, in macro
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\sandbox.py", line 401, in call
+    return __context.call(__obj, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\runtime.py", line 303, in call
+    return __obj(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt_common\record.py", line 507, in record_replay_wrapper
+    return func_to_record(*call_args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\adapters\base\impl.py", line 438, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caio\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\adapters\fabric\fabric_connection_manager.py", line 568, in execute
+    while cursor.nextset():
+          ^^^^^^^^^^^^^^^^
+pyodbc.ProgrammingError: ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'carrier_tracking_number'. (207) (SQLMoreResults)")
+
+[0m09:12:29.400878 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '465a16fe-e963-4a6a-b396-55906782bf18', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A76B716050>]}
+[0m09:12:29.401877 [error] [Thread-1 (]: 1 of 1 ERROR creating sql view model Sales.stg.sales ........................... [[31mERROR[0m in 0.24s]
+[0m09:12:29.402876 [debug] [Thread-1 (]: Finished running node model.pipeline_01.stg.sales
+[0m09:12:29.404875 [debug] [MainThread]: On master: COMMIT
+[0m09:12:29.405875 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:12:29.405875 [debug] [MainThread]: Connection 'list_AdventureWorks2019' was properly closed.
+[0m09:12:29.406874 [debug] [MainThread]: Connection 'list_AdventureWorks2019_seeds' was properly closed.
+[0m09:12:29.406874 [debug] [MainThread]: Connection 'model.pipeline_01.stg.sales' was properly closed.
+[0m09:12:29.407878 [info ] [MainThread]: 
+[0m09:12:29.407878 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.54 seconds (0.54s).
+[0m09:12:29.409873 [debug] [MainThread]: Command end result
+[0m09:12:29.451849 [info ] [MainThread]: 
+[0m09:12:29.452849 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m09:12:29.453848 [info ] [MainThread]: 
+[0m09:12:29.454862 [error] [MainThread]:   ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'carrier_tracking_number'. (207) (SQLMoreResults)")
+[0m09:12:29.455861 [info ] [MainThread]: 
+[0m09:12:29.456847 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m09:12:29.457845 [debug] [MainThread]: Command `dbt run` failed at 09:12:29.457845 after 1.89 seconds
+[0m09:12:29.458847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A764FC39D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A76DB2BF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A76DB29AD0>]}
+[0m09:12:29.459844 [debug] [MainThread]: Flushing usage events
+[0m09:14:10.520098 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186C431E250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186C3072F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186C436B4D0>]}
+
+
+============================== 09:14:10.525096 | 159dd79e-e278-43e6-8500-cd8bc6b8589e ==============================
+[0m09:14:10.525096 [info ] [MainThread]: Running with dbt=1.8.9
+[0m09:14:10.526096 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\caio\\Desktop\\Pipeline 1', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m09:14:10.938874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '159dd79e-e278-43e6-8500-cd8bc6b8589e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186C4125050>]}
+[0m09:14:10.991843 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '159dd79e-e278-43e6-8500-cd8bc6b8589e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186C3795210>]}
+[0m09:14:10.992829 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m09:14:11.284664 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m09:14:11.479564 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:14:11.480564 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:14:11.486561 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.staging
+- models.marts
+- models.intermediate
+[0m09:14:11.540515 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '159dd79e-e278-43e6-8500-cd8bc6b8589e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186C5F3E410>]}
+[0m09:14:11.665446 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '159dd79e-e278-43e6-8500-cd8bc6b8589e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186C5A78250>]}
+[0m09:14:11.666445 [info ] [MainThread]: Found 1 seed, 12 data tests, 1 model, 1 source, 504 macros
+[0m09:14:11.666445 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '159dd79e-e278-43e6-8500-cd8bc6b8589e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186C5E18A10>]}
+[0m09:14:11.669461 [info ] [MainThread]: 
+[0m09:14:11.670443 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m09:14:11.671442 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_AdventureWorks2019'
+[0m09:14:11.691450 [debug] [ThreadPool]: dbt-sqlserver
+[0m09:14:11.692450 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2019"
+[0m09:14:11.693444 [debug] [ThreadPool]: On list_AdventureWorks2019: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_AdventureWorks2019"} */
+USE [AdventureWorks2019];
+    select  name as [schema]
+    from sys.schemas with (nolock) 
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m09:14:11.694431 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:14:11.694431 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:14:11.750890 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2019
+[0m09:14:11.753881 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m09:14:11.755896 [debug] [ThreadPool]: On list_AdventureWorks2019: Close
+[0m09:14:11.756881 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_AdventureWorks2019_seeds'
+[0m09:14:11.763890 [debug] [ThreadPool]: dbt-sqlserver
+[0m09:14:11.763890 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2019_seeds"
+[0m09:14:11.764888 [debug] [ThreadPool]: On list_AdventureWorks2019_seeds: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_AdventureWorks2019_seeds"} */
+USE [AdventureWorks2019];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'seeds'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m09:14:11.764888 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:14:11.765876 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:14:11.766887 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2019
+[0m09:14:11.791859 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m09:14:11.793874 [debug] [ThreadPool]: On list_AdventureWorks2019_seeds: ROLLBACK
+[0m09:14:11.794872 [debug] [ThreadPool]: On list_AdventureWorks2019_seeds: Close
+[0m09:14:11.795857 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_AdventureWorks2019_seeds, now list_AdventureWorks2019_Sales)
+[0m09:14:11.798869 [debug] [ThreadPool]: dbt-sqlserver
+[0m09:14:11.799854 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2019_Sales"
+[0m09:14:11.799854 [debug] [ThreadPool]: On list_AdventureWorks2019_Sales: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_AdventureWorks2019_Sales"} */
+USE [AdventureWorks2019];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'Sales'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m09:14:11.800868 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:14:11.800868 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:14:11.801868 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2019
+[0m09:14:11.821842 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m09:14:11.823856 [debug] [ThreadPool]: On list_AdventureWorks2019_Sales: ROLLBACK
+[0m09:14:11.824855 [debug] [ThreadPool]: On list_AdventureWorks2019_Sales: Close
+[0m09:14:11.829856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '159dd79e-e278-43e6-8500-cd8bc6b8589e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186C6075310>]}
+[0m09:14:11.830856 [debug] [MainThread]: On master: COMMIT
+[0m09:14:11.831855 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m09:14:11.832836 [info ] [MainThread]: 
+[0m09:14:11.835834 [debug] [Thread-1 (]: Began running node model.pipeline_01.stg.sales
+[0m09:14:11.836848 [info ] [Thread-1 (]: 1 of 1 START sql view model Sales.stg.sales .................................... [RUN]
+[0m09:14:11.838833 [debug] [Thread-1 (]: Acquiring new sqlserver connection 'model.pipeline_01.stg.sales'
+[0m09:14:11.839832 [debug] [Thread-1 (]: Began compiling node model.pipeline_01.stg.sales
+[0m09:14:11.850827 [debug] [Thread-1 (]: Writing injected SQL for node "model.pipeline_01.stg.sales"
+[0m09:14:11.852825 [debug] [Thread-1 (]: Began executing node model.pipeline_01.stg.sales
+[0m09:14:11.963776 [debug] [Thread-1 (]: Writing runtime sql for node "model.pipeline_01.stg.sales"
+[0m09:14:11.964761 [debug] [Thread-1 (]: Using sqlserver connection "model.pipeline_01.stg.sales"
+[0m09:14:11.965761 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "node_id": "model.pipeline_01.stg.sales"} */
+USE [AdventureWorks2019];
+    
+    
+
+    
+
+    
+    USE [AdventureWorks2019];
+    EXEC('
+        create view "Sales"."stg.sales__dbt_tmp" as With SalesOrderDetail as (
+        select
+            SalesOrderID as sales_order_id
+            , SalesOrderDetailID as sales_order_detail_id
+            , CarrierTrackingNumber as carrier_tracking_number
+            , OrderQty as order_qty
+            , SpecialOfferID as special_offer_id
+            , UnitPrice as unit_price
+            , UnitPriceDiscount as unit_price_discount
+            , LineTotal as line_total
+            , rowguid
+            , ModifiedDate as modified_date
+            , case
+                when CarrierTrackingNumber is null then ''Without Number''
+            end as tracking_number
+        from "AdventureWorks2019"."Sales"."SalesOrderDetail"
+  )
+select * from SalesOrderDetail;
+    ')
+
+
+[0m09:14:11.965761 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m09:14:11.966778 [debug] [Thread-1 (]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:14:11.970772 [debug] [Thread-1 (]: fabric adapter: Connected to db: AdventureWorks2019
+[0m09:14:11.978512 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m09:14:11.985524 [debug] [Thread-1 (]: Using sqlserver connection "model.pipeline_01.stg.sales"
+[0m09:14:11.986523 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "node_id": "model.pipeline_01.stg.sales"} */
+USE [AdventureWorks2019];
+      EXEC sp_rename 'Sales.stg.sales__dbt_tmp', 'stg.sales'
+[0m09:14:12.102498 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m09:14:12.104391 [debug] [Thread-1 (]: fabric adapter: Database error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No item by the name of 'Sales.stg.sales__dbt_tmp' could be found in the current database 'AdventureWorks2019', given that @itemtype was input as '(null)'. (15225) (SQLMoreResults)")
+[0m09:14:12.105394 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: ROLLBACK
+[0m09:14:12.105394 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: Close
+[0m09:14:12.137756 [debug] [Thread-1 (]: Database Error in model stg.sales (models\staging\AdventureWorks\stg.sales.sql)
+  ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No item by the name of 'Sales.stg.sales__dbt_tmp' could be found in the current database 'AdventureWorks2019', given that @itemtype was input as '(null)'. (15225) (SQLMoreResults)")
+  compiled code at target\run\pipeline_01\models\staging\AdventureWorks\stg.sales.sql
+[0m09:14:12.140755 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '159dd79e-e278-43e6-8500-cd8bc6b8589e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186C5A91B90>]}
+[0m09:14:12.140755 [error] [Thread-1 (]: 1 of 1 ERROR creating sql view model Sales.stg.sales ........................... [[31mERROR[0m in 0.30s]
+[0m09:14:12.142754 [debug] [Thread-1 (]: Finished running node model.pipeline_01.stg.sales
+[0m09:14:12.144755 [debug] [MainThread]: On master: COMMIT
+[0m09:14:12.145752 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:14:12.145752 [debug] [MainThread]: Connection 'list_AdventureWorks2019' was properly closed.
+[0m09:14:12.146751 [debug] [MainThread]: Connection 'list_AdventureWorks2019_Sales' was properly closed.
+[0m09:14:12.146751 [debug] [MainThread]: Connection 'model.pipeline_01.stg.sales' was properly closed.
+[0m09:14:12.147751 [info ] [MainThread]: 
+[0m09:14:12.147751 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.48 seconds (0.48s).
+[0m09:14:12.149750 [debug] [MainThread]: Command end result
+[0m09:14:12.192726 [info ] [MainThread]: 
+[0m09:14:12.193725 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m09:14:12.194739 [info ] [MainThread]: 
+[0m09:14:12.195743 [error] [MainThread]:   Database Error in model stg.sales (models\staging\AdventureWorks\stg.sales.sql)
+  ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No item by the name of 'Sales.stg.sales__dbt_tmp' could be found in the current database 'AdventureWorks2019', given that @itemtype was input as '(null)'. (15225) (SQLMoreResults)")
+  compiled code at target\run\pipeline_01\models\staging\AdventureWorks\stg.sales.sql
+[0m09:14:12.196731 [info ] [MainThread]: 
+[0m09:14:12.197741 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m09:14:12.199723 [debug] [MainThread]: Command `dbt run` failed at 09:14:12.199723 after 1.75 seconds
+[0m09:14:12.199723 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186BDC639D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186C431A550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186C431A6D0>]}
+[0m09:14:12.200723 [debug] [MainThread]: Flushing usage events
+[0m09:18:31.464250 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0B11EB590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0B11EF590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0B11ED8D0>]}
+
+
+============================== 09:18:31.468248 | d5ba99c4-3a5f-4aac-9c9f-b2b6565efaea ==============================
+[0m09:18:31.468248 [info ] [MainThread]: Running with dbt=1.8.9
+[0m09:18:31.469233 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\caio\\Desktop\\Pipeline 1', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:18:31.841034 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd5ba99c4-3a5f-4aac-9c9f-b2b6565efaea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0B29CE7D0>]}
+[0m09:18:31.895009 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd5ba99c4-3a5f-4aac-9c9f-b2b6565efaea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0B0655090>]}
+[0m09:18:31.896004 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m09:18:32.185839 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m09:18:32.389708 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:18:32.390708 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:18:32.397704 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.marts
+- models.staging
+- models.intermediate
+[0m09:18:32.456122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd5ba99c4-3a5f-4aac-9c9f-b2b6565efaea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0B2D4C4D0>]}
+[0m09:18:32.582386 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd5ba99c4-3a5f-4aac-9c9f-b2b6565efaea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0AE7E5E90>]}
+[0m09:18:32.584399 [info ] [MainThread]: Found 1 model, 1 seed, 12 data tests, 1 source, 504 macros
+[0m09:18:32.585384 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd5ba99c4-3a5f-4aac-9c9f-b2b6565efaea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0B2DD5890>]}
+[0m09:18:32.588384 [info ] [MainThread]: 
+[0m09:18:32.589388 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m09:18:32.590381 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_AdventureWorks2019'
+[0m09:18:32.610763 [debug] [ThreadPool]: dbt-sqlserver
+[0m09:18:32.611753 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2019"
+[0m09:18:32.612749 [debug] [ThreadPool]: On list_AdventureWorks2019: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_AdventureWorks2019"} */
+USE [AdventureWorks2019];
+    select  name as [schema]
+    from sys.schemas with (nolock) 
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m09:18:32.612749 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:18:32.613762 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:18:32.669583 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2019
+[0m09:18:32.671595 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m09:18:32.673581 [debug] [ThreadPool]: On list_AdventureWorks2019: Close
+[0m09:18:32.675580 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_AdventureWorks2019_seeds'
+[0m09:18:32.682588 [debug] [ThreadPool]: dbt-sqlserver
+[0m09:18:32.683578 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2019_seeds"
+[0m09:18:32.683578 [debug] [ThreadPool]: On list_AdventureWorks2019_seeds: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_AdventureWorks2019_seeds"} */
+USE [AdventureWorks2019];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'seeds'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m09:18:32.684574 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:18:32.685584 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:18:32.685584 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2019
+[0m09:18:32.711572 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m09:18:32.714558 [debug] [ThreadPool]: On list_AdventureWorks2019_seeds: ROLLBACK
+[0m09:18:32.714558 [debug] [ThreadPool]: On list_AdventureWorks2019_seeds: Close
+[0m09:18:32.715558 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_AdventureWorks2019_seeds, now list_AdventureWorks2019_Sales)
+[0m09:18:32.718555 [debug] [ThreadPool]: dbt-sqlserver
+[0m09:18:32.719555 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2019_Sales"
+[0m09:18:32.719555 [debug] [ThreadPool]: On list_AdventureWorks2019_Sales: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_AdventureWorks2019_Sales"} */
+USE [AdventureWorks2019];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'Sales'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m09:18:32.720554 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:18:32.721554 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:18:32.722552 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2019
+[0m09:18:32.743541 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m09:18:32.746552 [debug] [ThreadPool]: On list_AdventureWorks2019_Sales: ROLLBACK
+[0m09:18:32.746552 [debug] [ThreadPool]: On list_AdventureWorks2019_Sales: Close
+[0m09:18:32.752536 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd5ba99c4-3a5f-4aac-9c9f-b2b6565efaea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0B126FC90>]}
+[0m09:18:32.753534 [debug] [MainThread]: On master: COMMIT
+[0m09:18:32.753534 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m09:18:32.754708 [info ] [MainThread]: 
+[0m09:18:32.758096 [debug] [Thread-1 (]: Began running node model.pipeline_01.stg.sales
+[0m09:18:32.759112 [info ] [Thread-1 (]: 1 of 1 START sql view model Sales.stg.sales .................................... [RUN]
+[0m09:18:32.760098 [debug] [Thread-1 (]: Acquiring new sqlserver connection 'model.pipeline_01.stg.sales'
+[0m09:18:32.760098 [debug] [Thread-1 (]: Began compiling node model.pipeline_01.stg.sales
+[0m09:18:32.773104 [debug] [Thread-1 (]: Writing injected SQL for node "model.pipeline_01.stg.sales"
+[0m09:18:32.774098 [debug] [Thread-1 (]: Began executing node model.pipeline_01.stg.sales
+[0m09:18:32.880042 [debug] [Thread-1 (]: Applying DROP to: "AdventureWorks2019"."Sales"."stg.sales__dbt_tmp"
+[0m09:18:32.888042 [debug] [Thread-1 (]: dbt-sqlserver
+[0m09:18:32.888042 [debug] [Thread-1 (]: Using sqlserver connection "model.pipeline_01.stg.sales"
+[0m09:18:32.889041 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "node_id": "model.pipeline_01.stg.sales"} */
+
+        USE [AdventureWorks2019];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'AdventureWorks2019'
+        and refs.referenced_schema_name = 'Sales'
+        and refs.referenced_entity_name = 'stg.sales__dbt_tmp'
+        and refs.referencing_class = 1
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m09:18:32.890041 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m09:18:32.891045 [debug] [Thread-1 (]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:18:32.892040 [debug] [Thread-1 (]: fabric adapter: Connected to db: AdventureWorks2019
+[0m09:18:32.918847 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m09:18:32.921854 [debug] [Thread-1 (]: Using sqlserver connection "model.pipeline_01.stg.sales"
+[0m09:18:32.921854 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "node_id": "model.pipeline_01.stg.sales"} */
+
+      
+      
+    
+    USE [AdventureWorks2019];
+    EXEC('DROP view IF EXISTS "Sales"."stg.sales__dbt_tmp";');
+
+[0m09:18:32.926841 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m09:18:32.938853 [debug] [Thread-1 (]: Writing runtime sql for node "model.pipeline_01.stg.sales"
+[0m09:18:32.939853 [debug] [Thread-1 (]: Using sqlserver connection "model.pipeline_01.stg.sales"
+[0m09:18:32.940853 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "node_id": "model.pipeline_01.stg.sales"} */
+USE [AdventureWorks2019];
+    
+    
+
+    
+
+    
+    USE [AdventureWorks2019];
+    EXEC('
+        create view "Sales"."stg.sales__dbt_tmp" as With SalesOrderDetail as (
+        select
+            SalesOrderID as sales_order_id
+            , SalesOrderDetailID as sales_order_detail_id
+            , CarrierTrackingNumber as carrier_tracking_number
+            , OrderQty as order_qty
+            , SpecialOfferID as special_offer_id
+            , UnitPrice as unit_price
+            , UnitPriceDiscount as unit_price_discount
+            , LineTotal as line_total
+            , rowguid
+            , ModifiedDate as modified_date
+            , case
+                when CarrierTrackingNumber is null then ''Without Number''
+            end as tracking_number
+        from "AdventureWorks2019"."Sales"."SalesOrderDetail"
+  )
+select * from SalesOrderDetail;
+    ')
+
+
+[0m09:18:32.943833 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m09:18:32.951828 [debug] [Thread-1 (]: Using sqlserver connection "model.pipeline_01.stg.sales"
+[0m09:18:32.952827 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "node_id": "model.pipeline_01.stg.sales"} */
+USE [AdventureWorks2019];
+      EXEC sp_rename 'Sales.stg.sales__dbt_tmp', 'stg.sales'
+[0m09:18:33.064764 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m09:18:33.065778 [debug] [Thread-1 (]: fabric adapter: Database error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No item by the name of 'Sales.stg.sales__dbt_tmp' could be found in the current database 'AdventureWorks2019', given that @itemtype was input as '(null)'. (15225) (SQLMoreResults)")
+[0m09:18:33.066776 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: ROLLBACK
+[0m09:18:33.067762 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: Close
+[0m09:18:33.074772 [debug] [Thread-1 (]: Database Error in model stg.sales (models\staging\AdventureWorks\stg.sales.sql)
+  ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No item by the name of 'Sales.stg.sales__dbt_tmp' could be found in the current database 'AdventureWorks2019', given that @itemtype was input as '(null)'. (15225) (SQLMoreResults)")
+  compiled code at target\run\pipeline_01\models\staging\AdventureWorks\stg.sales.sql
+[0m09:18:33.075770 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd5ba99c4-3a5f-4aac-9c9f-b2b6565efaea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0B2959410>]}
+[0m09:18:33.076770 [error] [Thread-1 (]: 1 of 1 ERROR creating sql view model Sales.stg.sales ........................... [[31mERROR[0m in 0.32s]
+[0m09:18:33.077755 [debug] [Thread-1 (]: Finished running node model.pipeline_01.stg.sales
+[0m09:18:33.080754 [debug] [MainThread]: On master: COMMIT
+[0m09:18:33.080754 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:18:33.081754 [debug] [MainThread]: Connection 'list_AdventureWorks2019' was properly closed.
+[0m09:18:33.081754 [debug] [MainThread]: Connection 'list_AdventureWorks2019_Sales' was properly closed.
+[0m09:18:33.082764 [debug] [MainThread]: Connection 'model.pipeline_01.stg.sales' was properly closed.
+[0m09:18:33.082764 [info ] [MainThread]: 
+[0m09:18:33.083753 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.49 seconds (0.49s).
+[0m09:18:33.084752 [debug] [MainThread]: Command end result
+[0m09:18:33.130726 [info ] [MainThread]: 
+[0m09:18:33.131725 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m09:18:33.132724 [info ] [MainThread]: 
+[0m09:18:33.132724 [error] [MainThread]:   Database Error in model stg.sales (models\staging\AdventureWorks\stg.sales.sql)
+  ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No item by the name of 'Sales.stg.sales__dbt_tmp' could be found in the current database 'AdventureWorks2019', given that @itemtype was input as '(null)'. (15225) (SQLMoreResults)")
+  compiled code at target\run\pipeline_01\models\staging\AdventureWorks\stg.sales.sql
+[0m09:18:33.134723 [info ] [MainThread]: 
+[0m09:18:33.134723 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m09:18:33.136744 [debug] [MainThread]: Command `dbt run` failed at 09:18:33.136744 after 1.74 seconds
+[0m09:18:33.137736 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0AAB239D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0B11EA990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0B11EBC90>]}
+[0m09:18:33.137736 [debug] [MainThread]: Flushing usage events
+[0m09:19:46.031805 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1FBF1ED50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1FBF6A810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1FBF1FA50>]}
+
+
+============================== 09:19:46.036802 | 76bd56da-351b-4ea2-bf8d-e9310eb3098f ==============================
+[0m09:19:46.036802 [info ] [MainThread]: Running with dbt=1.8.9
+[0m09:19:46.037802 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\caio\\Desktop\\Pipeline 1', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\caio\\Desktop\\Pipeline 1\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m09:19:46.451567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '76bd56da-351b-4ea2-bf8d-e9310eb3098f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1FD69A010>]}
+[0m09:19:46.504549 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '76bd56da-351b-4ea2-bf8d-e9310eb3098f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1FB394F50>]}
+[0m09:19:46.505550 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m09:19:46.901323 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m09:19:47.095200 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:19:47.096199 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:19:47.102195 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.marts
+- models.staging
+- models.intermediate
+[0m09:19:47.155179 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '76bd56da-351b-4ea2-bf8d-e9310eb3098f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1FDAEF210>]}
+[0m09:19:47.322070 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '76bd56da-351b-4ea2-bf8d-e9310eb3098f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1FDA73390>]}
+[0m09:19:47.323070 [info ] [MainThread]: Found 1 model, 1 seed, 12 data tests, 1 source, 504 macros
+[0m09:19:47.324069 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '76bd56da-351b-4ea2-bf8d-e9310eb3098f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1FDA366D0>]}
+[0m09:19:47.326068 [info ] [MainThread]: 
+[0m09:19:47.327068 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m09:19:47.329068 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_AdventureWorks2019'
+[0m09:19:47.348070 [debug] [ThreadPool]: dbt-sqlserver
+[0m09:19:47.349069 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2019"
+[0m09:19:47.349069 [debug] [ThreadPool]: On list_AdventureWorks2019: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_AdventureWorks2019"} */
+USE [AdventureWorks2019];
+    select  name as [schema]
+    from sys.schemas with (nolock) 
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m09:19:47.350073 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:19:47.351057 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:19:47.406814 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2019
+[0m09:19:47.411054 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m09:19:47.413069 [debug] [ThreadPool]: On list_AdventureWorks2019: Close
+[0m09:19:47.415054 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_AdventureWorks2019_seeds'
+[0m09:19:47.422063 [debug] [ThreadPool]: dbt-sqlserver
+[0m09:19:47.422063 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2019_seeds"
+[0m09:19:47.423049 [debug] [ThreadPool]: On list_AdventureWorks2019_seeds: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_AdventureWorks2019_seeds"} */
+USE [AdventureWorks2019];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'seeds'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m09:19:47.423049 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:19:47.424062 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:19:47.425062 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2019
+[0m09:19:47.450033 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m09:19:47.452046 [debug] [ThreadPool]: On list_AdventureWorks2019_seeds: ROLLBACK
+[0m09:19:47.453032 [debug] [ThreadPool]: On list_AdventureWorks2019_seeds: Close
+[0m09:19:47.453032 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_AdventureWorks2019_seeds, now list_AdventureWorks2019_Sales)
+[0m09:19:47.457044 [debug] [ThreadPool]: dbt-sqlserver
+[0m09:19:47.457044 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2019_Sales"
+[0m09:19:47.458043 [debug] [ThreadPool]: On list_AdventureWorks2019_Sales: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "connection_name": "list_AdventureWorks2019_Sales"} */
+USE [AdventureWorks2019];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'Sales'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m09:19:47.458043 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:19:47.459034 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:19:47.459034 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2019
+[0m09:19:47.479017 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m09:19:47.481016 [debug] [ThreadPool]: On list_AdventureWorks2019_Sales: ROLLBACK
+[0m09:19:47.482015 [debug] [ThreadPool]: On list_AdventureWorks2019_Sales: Close
+[0m09:19:47.487853 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '76bd56da-351b-4ea2-bf8d-e9310eb3098f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1FDAFBCD0>]}
+[0m09:19:47.487853 [debug] [MainThread]: On master: COMMIT
+[0m09:19:47.488870 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m09:19:47.489857 [info ] [MainThread]: 
+[0m09:19:47.492996 [debug] [Thread-1 (]: Began running node model.pipeline_01.stg.sales
+[0m09:19:47.493997 [info ] [Thread-1 (]: 1 of 1 START sql view model Sales.stg.sales .................................... [RUN]
+[0m09:19:47.495001 [debug] [Thread-1 (]: Acquiring new sqlserver connection 'model.pipeline_01.stg.sales'
+[0m09:19:47.495999 [debug] [Thread-1 (]: Began compiling node model.pipeline_01.stg.sales
+[0m09:19:47.507990 [debug] [Thread-1 (]: Writing injected SQL for node "model.pipeline_01.stg.sales"
+[0m09:19:47.509988 [debug] [Thread-1 (]: Began executing node model.pipeline_01.stg.sales
+[0m09:19:47.623925 [debug] [Thread-1 (]: Applying DROP to: "AdventureWorks2019"."Sales"."stg.sales__dbt_tmp"
+[0m09:19:47.634919 [debug] [Thread-1 (]: dbt-sqlserver
+[0m09:19:47.635917 [debug] [Thread-1 (]: Using sqlserver connection "model.pipeline_01.stg.sales"
+[0m09:19:47.636917 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "node_id": "model.pipeline_01.stg.sales"} */
+
+        USE [AdventureWorks2019];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'AdventureWorks2019'
+        and refs.referenced_schema_name = 'Sales'
+        and refs.referenced_entity_name = 'stg.sales__dbt_tmp'
+        and refs.referencing_class = 1
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m09:19:47.637921 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m09:19:47.638915 [debug] [Thread-1 (]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQL2019EXPRESS;Database=AdventureWorks2019;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m09:19:47.643914 [debug] [Thread-1 (]: fabric adapter: Connected to db: AdventureWorks2019
+[0m09:19:47.666899 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m09:19:47.668917 [debug] [Thread-1 (]: Using sqlserver connection "model.pipeline_01.stg.sales"
+[0m09:19:47.669916 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "node_id": "model.pipeline_01.stg.sales"} */
+
+      
+      
+    
+    USE [AdventureWorks2019];
+    EXEC('DROP view IF EXISTS "Sales"."stg.sales__dbt_tmp";');
+
+[0m09:19:47.672925 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m09:19:47.685888 [debug] [Thread-1 (]: Writing runtime sql for node "model.pipeline_01.stg.sales"
+[0m09:19:47.687887 [debug] [Thread-1 (]: Using sqlserver connection "model.pipeline_01.stg.sales"
+[0m09:19:47.688887 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "node_id": "model.pipeline_01.stg.sales"} */
+USE [AdventureWorks2019];
+    
+    
+
+    
+
+    
+    USE [AdventureWorks2019];
+    EXEC('
+        create view "Sales"."stg.sales__dbt_tmp" as With SalesOrderDetail as (
+        select
+            SalesOrderID as sales_order_id
+            , SalesOrderDetailID as sales_order_detail_id
+            , CarrierTrackingNumber as carrier_tracking_number
+            , OrderQty as order_qty
+            , SpecialOfferID as special_offer_id
+            , UnitPrice as unit_price
+            , UnitPriceDiscount as unit_price_discount
+            , LineTotal as line_total
+            , rowguid
+            , ModifiedDate as modified_date
+            , case
+                when CarrierTrackingNumber is null then ''Without Number''
+            end as tracking_number
+        from "AdventureWorks2019"."Sales"."SalesOrderDetail"
+  )
+select * from SalesOrderDetail;
+    ')
+
+
+[0m09:19:47.691885 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m09:19:47.699880 [debug] [Thread-1 (]: Using sqlserver connection "model.pipeline_01.stg.sales"
+[0m09:19:47.700879 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "pipeline_01", "target_name": "dev", "node_id": "model.pipeline_01.stg.sales"} */
+USE [AdventureWorks2019];
+      EXEC sp_rename 'Sales.stg.sales__dbt_tmp', 'stg.sales'
+[0m09:19:47.813817 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m09:19:47.815815 [debug] [Thread-1 (]: fabric adapter: Database error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No item by the name of 'Sales.stg.sales__dbt_tmp' could be found in the current database 'AdventureWorks2019', given that @itemtype was input as '(null)'. (15225) (SQLMoreResults)")
+[0m09:19:47.815815 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: ROLLBACK
+[0m09:19:47.816814 [debug] [Thread-1 (]: On model.pipeline_01.stg.sales: Close
+[0m09:19:47.822810 [debug] [Thread-1 (]: Database Error in model stg.sales (models\staging\AdventureWorks\stg.sales.sql)
+  ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No item by the name of 'Sales.stg.sales__dbt_tmp' could be found in the current database 'AdventureWorks2019', given that @itemtype was input as '(null)'. (15225) (SQLMoreResults)")
+  compiled code at target\run\pipeline_01\models\staging\AdventureWorks\stg.sales.sql
+[0m09:19:47.824809 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '76bd56da-351b-4ea2-bf8d-e9310eb3098f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1FD242610>]}
+[0m09:19:47.825808 [error] [Thread-1 (]: 1 of 1 ERROR creating sql view model Sales.stg.sales ........................... [[31mERROR[0m in 0.33s]
+[0m09:19:47.827536 [debug] [Thread-1 (]: Finished running node model.pipeline_01.stg.sales
+[0m09:19:47.829535 [debug] [MainThread]: On master: COMMIT
+[0m09:19:47.829535 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:19:47.830530 [debug] [MainThread]: Connection 'list_AdventureWorks2019' was properly closed.
+[0m09:19:47.830530 [debug] [MainThread]: Connection 'list_AdventureWorks2019_Sales' was properly closed.
+[0m09:19:47.831519 [debug] [MainThread]: Connection 'model.pipeline_01.stg.sales' was properly closed.
+[0m09:19:47.831519 [info ] [MainThread]: 
+[0m09:19:47.832518 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.50 seconds (0.50s).
+[0m09:19:47.833519 [debug] [MainThread]: Command end result
+[0m09:19:47.880493 [info ] [MainThread]: 
+[0m09:19:47.881501 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m09:19:47.882504 [info ] [MainThread]: 
+[0m09:19:47.883490 [error] [MainThread]:   Database Error in model stg.sales (models\staging\AdventureWorks\stg.sales.sql)
+  ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No item by the name of 'Sales.stg.sales__dbt_tmp' could be found in the current database 'AdventureWorks2019', given that @itemtype was input as '(null)'. (15225) (SQLMoreResults)")
+  compiled code at target\run\pipeline_01\models\staging\AdventureWorks\stg.sales.sql
+[0m09:19:47.884489 [info ] [MainThread]: 
+[0m09:19:47.885497 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m09:19:47.888487 [debug] [MainThread]: Command `dbt run` failed at 09:19:47.887492 after 1.93 seconds
+[0m09:19:47.889490 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1FDC78790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1F58139D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1FE350710>]}
+[0m09:19:47.890485 [debug] [MainThread]: Flushing usage events

@@ -15,21 +15,20 @@ clean-targets:
   - "dbt_packages"
 
 models:
-    staging:
-      schema: staging
-      +materialized: table
-      tags: ['staging']
-    
-    intermediate: 
-      +materialized: ephemeral
-      tags: ['intermediate']
-    
-    marts:
-      schema: marts
-      +materialized: table
-      tags: ['marts']
+  staging:
+    schema: Sales
+    +materialized: table
+    tags: ['staging']
+
+  intermediate: 
+    +materialized: ephemeral
+    tags: ['intermediate']
+
+  marts:
+    schema: marts
+    +materialized: table
+    tags: ['marts']
 
 seeds:
-  pipeline_01:
-    +schema: seeds
-    tags: ['seed']
+  +schema: seeds
+  tags: ['seed']
