@@ -14,6 +14,9 @@ sources:
           - name: OrderQty
             description: Quantidade
             tests: [not_null]
+          - name: UnitPrice
+            description: Preço da unidade
+            tests: [not_null]
       - name: SalesOrderHeader
         description: cabeçalho de vendas
         columns:
@@ -28,4 +31,10 @@ sources:
             tests: [not_null]
           - name: TotalDue
             description: valor total da compra
-            tests: [unique]
+          - name: SubTotal
+            description: SubTotal
+            tests: [not_null]
+          - name: TaxAmt
+            description: imposto
+          - name: Freight
+            description: Frete
