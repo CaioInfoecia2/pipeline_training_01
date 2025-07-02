@@ -1,0 +1,40 @@
+version: 2
+
+sources:
+  - name: AdventureWorks2019
+    description: Dados da microsoft
+    schema: Sales
+    tables:
+      - name: SalesOrderDetailb
+        description: Tabela de vendas
+        columns:
+          - name: SalesOrderID
+            description: Identificador único do produto
+            tests: [not_null]
+          - name: SalesOrderDetailID
+            description: sei lá
+            tests: [unique, not_null]
+          - name: CarrierTrackingNumber
+            description: código de rastreio
+            tests: [not_null]
+          - name: OrderQty
+            description: Quantidade
+            tests: [not_null]
+          - name: SpecialOfferID
+            description: ID da venda especial
+            tests: [not_null]
+          - name: UnitPrice
+            description: Preço por unidade
+            tests: [not_null]
+          - name: UnitPriceDiscount
+            description: Valor do desconto
+            tests: [not_null]
+          - name: LineTotal
+            description: Valor total
+            tests: [not_null]
+          - name: rowguid
+            description: sei lá/2
+            tests: [unique, not_null]
+          - name: ModifiedDate
+            description: Data da venda
+            tests: [not_null]
