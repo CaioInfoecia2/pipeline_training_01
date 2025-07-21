@@ -25,10 +25,7 @@ models:
     tags: ['intermediate']
 
   marts:
+    +database: BiTest
     schema: marts
     +materialized: table
     tags: ['marts']
-
-seeds:
-  +schema: seeds
-  tags: ['seed']
