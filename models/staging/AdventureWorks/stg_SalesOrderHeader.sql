@@ -14,7 +14,7 @@ with SalesOrderHeader as (
         , MONTH(OrderDate) as order_month
         , YEAR(OrderDate) as order_year
         , DATENAME(month, OrderDate) as order_month_name
-    from {{ source('AdventureWorks2019', 'SalesOrderHeader') }}
+    from {{ source('AdventureWorks_Sales', 'SalesOrderHeader') }}
 )
 
 select * from SalesOrderHeader;

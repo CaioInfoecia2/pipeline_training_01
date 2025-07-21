@@ -16,7 +16,6 @@ clean-targets:
 
 models:
   staging:
-    schema: Sales
     +materialized: table
     tags: ['staging']
 

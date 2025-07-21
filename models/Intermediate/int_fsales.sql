@@ -9,10 +9,16 @@ with sales_detail as (
 sales_header as (
     select *
     from {{ ref('stg_SalesOrderHeader') }}
+),
+product as (
+    select *
+    from {{ ref('stg_product') }}
 )
 
 select
     sh.sales_order_id,
+    pd.product_id,
+    pd.name,
     sh.order_date,
     sh.ship_date,
     SUM(sd.order_qty) as total_order_qty, 
@@ -25,6 +31,7 @@ select
 from sales_detail sd
 join sales_header sh
     on sd.sales_order_id = sh.sales_order_id
+join product pd on pd.product_id = sd.product_id
 group by
     sh.sales_order_id,
     sh.order_date,
@@ -34,4 +41,6 @@ group by
     sh.freight,
     sh.total_due,
     sh.order_month,
-    sh.order_month_name
+    sh.order_month_name,
+    pd.product_id,
+    pd.name

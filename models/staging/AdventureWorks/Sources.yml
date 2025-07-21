@@ -1,8 +1,8 @@
 version: 2
 
 sources:
-  - name: AdventureWorks2019
-    description: Dados da microsoft
+  - name: AdventureWorks_Sales
+    description: Dados da Microsoft - schema Sales
     schema: Sales
     tables:
       - name: SalesOrderDetail
@@ -17,12 +17,18 @@ sources:
           - name: UnitPrice
             description: Preço da unidade
             tests: [not_null]
+          - name: ProductID
+            description: ID do produto
+            tests: [not_null, unique]
+          - name: Name
+            description: nome do produto
+            tests: [not_null,unique]
       - name: SalesOrderHeader
-        description: cabeçalho de vendas
+        description: Cabeçalho de vendas
         columns:
           - name: SalesOrderID
             description: Identificador único do produto
-            tests: [not_null,unique]
+            tests: [not_null, unique]
           - name: OrderDate
             description: Data de compra
             tests: [not_null]
@@ -30,11 +36,32 @@ sources:
             description: Data de envio
             tests: [not_null]
           - name: TotalDue
-            description: valor total da compra
+            description: Valor total da compra
           - name: SubTotal
             description: SubTotal
             tests: [not_null]
           - name: TaxAmt
-            description: imposto
+            description: Imposto
           - name: Freight
             description: Frete
+            tests: [not_null]
+          - name: ProductID
+            description: ID do produto
+            tests: [not_null, unique]
+          - name: Name
+            description: Nome do produto
+            tests: [not_null, unique]
+
+  - name: AdventureWorks_Production
+    description: Dados da Microsoft - schema Production
+    schema: Production
+    tables:
+      - name: Product
+        description: Produtos
+        columns:
+          - name: ProductID
+            description: ID do produto
+            tests: [not_null, unique]
+          - name: Name
+            description: Nome
+            tests: [not_null, unique]
