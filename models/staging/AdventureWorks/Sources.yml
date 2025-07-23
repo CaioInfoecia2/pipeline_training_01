@@ -65,3 +65,27 @@ sources:
           - name: Name
             description: Nome
             tests: [not_null, unique]
+          - name: ProductSubcategoryID
+            description: ID da categoria 
+            tests: [not null, unique]
+      - name: ProductSubcategory
+        description: Subcategoria de produtos
+        columns:
+          - name: Name
+            description: Nome
+            tests: [not_null, unique]
+          - name: ProductSubcategoryID
+            description: ID da categoria
+            tests: [not_null,unique]
+          - name: ProductCategoryID
+            description: ID da categoria
+            tests: [not_null, unique]
+      - name: ProductCategory
+        description: Categoria de Produtos
+        columns:
+          - name: ProductCategoryID
+            description: ID da categoria
+            tests: [not_null, unique]
+          - name: Name
+            description: Nome da categoria
+            tests: [not_null,unique]
