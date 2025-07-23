@@ -1,15 +1,40 @@
-Welcome to your new dbt project!
+# 🚴‍♂️ Projeto Adventure Works - Pipeline de BI Completa
 
-### Using the starter project
+Este projeto demonstra uma pipeline completa de dados construída com foco em análise de vendas, utilizando a base fictícia Adventure Works.
 
-Try running the following commands:
-- dbt run
-- dbt test
+## 🛠 Tecnologias Utilizadas
+- **Python** – para ingestão e transformação inicial dos dados
+- **DBT (Data Build Tool)** – para modelagem de dados e versionamento de transformações
+- **Power BI** – para construção de dashboards interativos
 
+## 📊 Objetivo
+Criar um painel de Business Intelligence que forneça insights sobre:
+- Faturamento total
+- Análise por categoria de produto
+- Metas e desempenho de vendas
+- Ticket médio
+- Produtos mais vendidos
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## 📁 Estrutura do Projeto
+/adventureworks-pipeline
+│
+├── python/ # Scripts de ingestão e pré-processamento
+├── dbt/ # Projeto DBT com modelos, sources e macros
+├── dashboard/ # Arquivo .pbix com o dashboard final
+└── README.md # Este arquivo
+
+yaml
+Copiar
+Editar
+
+## 📎 Arquivo PBIX
+O arquivo `AdventureWorks_Final.pbix` está incluído na pasta `/dashboard`.  
+Você pode abri-lo no Power BI Desktop para explorar o painel.
+
+## 📌 Observações
+Este projeto é totalmente fictício e serve para fins educacionais e de portfólio.  
+Sugestões e feedbacks são muito bem-vindos!
+
+---
+
+Feito com 💻, café ☕ e vários `dbt run --full-refresh` ao longo do caminho.
